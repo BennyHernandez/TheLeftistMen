@@ -8,10 +8,19 @@
         font-family: sans-serif;
         font-weight: 700;
       }
+
+      .title img {
+        position: relative;
+        height: 10vw;
+      }
+
       .title {
         text-align: center;
-        font-size: 20vw;
+        font-size: 5vw;
+        line-height: 0;
+        margin-top: 2.5vh;
       }
+
       .quoteContainer * {
         margin: 0 auto;
         display: flex;
@@ -20,6 +29,7 @@
         font-style: italic;
         width: 70vw;
       }
+
       .quoteContainer q {
         margin-top: 20px;
       }
@@ -29,15 +39,42 @@
         top: 0;
         left: 0;
         background: none;
+        pointer-events: none;
+      }
+
+      .map {
+        text-align: center;
+        margin-top: 5vw;
+      }
+
+      .map iframe {
+        margin: 0 auto;
+        display: flex;
       }
     </style>
   </head>
   <body>
-    <h1 class="title">LEFOLG!</h1>
+    <div class="title">
+      <img src="title.gif" class="title" />
+      <h1>LEFOLG!</h1>
+    </div>
 
     <div class="quoteContainer">
       <img src="eric.jpg" />
       <q>The wealth of the rich man, and the ideals of the common poorman</q>
+    </div>
+
+    <div class="map">
+      <h2>Our Home</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50117.82626133456!2d-121.30992954999999!3d38.271050949999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809aa0f793aad6d3%3A0x8c6587d2a3129ef1!2sGalt%2C%20CA%2095632!5e0!3m2!1sen!2sus!4v1672029799095!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
 
     <canvas id="ericCanvas"></canvas>
