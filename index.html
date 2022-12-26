@@ -23,6 +23,13 @@
       .quoteContainer q {
         margin-top: 20px;
       }
+
+      canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: none;
+      }
     </style>
   </head>
   <body>
@@ -32,5 +39,77 @@
       <img src="eric.jpg" />
       <q>The wealth of the rich man, and the ideals of the common poorman</q>
     </div>
+
+    <canvas id="ericCanvas"></canvas>
+    <script>
+      // https://stackoverflow.com/questions/67425099/display-bounce-off-the-walls-object-on-the-page
+      var canvas = document.getElementById("ericCanvas");
+      var context = canvas.getContext("2d");
+      let timeout;
+
+      function setup() {
+        clearTimeout(timeout); // ADDED
+        var width = window.innerWidth; // CHANGED
+        var height = window.innerHeight; // CHANGED
+
+        canvas.width = width; // ADDED
+        canvas.height = height; //ADDED
+
+        const eric = new Image(250, 250);
+        eric.src = "head.png";
+
+        var ball = {
+          x: 100,
+          y: 100,
+          radius: 25,
+          xSpeed: 3,
+          ySpeed: 3,
+          draw: function (ctx) {
+            ctx.beginPath();
+            ctx.font = "48px serif";
+            ctx.drawImage(eric, this.x - 25, this.y - 50, 150, 150);
+          },
+          move: function () {
+            this.x += this.xSpeed;
+            this.y += this.ySpeed;
+          },
+        };
+
+        timeout = setInterval(function () {
+          context.clearRect(0, 0, width, height);
+          context.strokeRect(0, 0, width, height);
+
+          ball.move();
+
+          // right
+          if (ball.x + ball.radius >= width) {
+            ball.x = width - ball.radius;
+            ball.xSpeed = -ball.xSpeed;
+          }
+
+          // left
+          if (ball.x - ball.radius <= 0) {
+            ball.x = ball.radius;
+            ball.xSpeed = -ball.xSpeed;
+          }
+
+          // down
+          if (ball.y + ball.radius >= height) {
+            ball.y = height - ball.radius;
+            ball.ySpeed = -ball.ySpeed;
+          }
+
+          // up
+          if (ball.y - ball.radius <= 0) {
+            ball.y = ball.radius;
+            ball.ySpeed = -ball.ySpeed;
+          }
+
+          ball.draw(context);
+        }, 10);
+      }
+      window.onresize = setup;
+      setup();
+    </script>
   </body>
 </html>
