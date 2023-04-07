@@ -9,29 +9,39 @@
         font-weight: 700;
       }
 
-      .title img {
-        position: relative;
-        height: 10vw;
+      .title h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 8em;
+        margin: 0;
+      }
+
+      .title h3 {
+        font-size: 2em;
+        margin-top: 0;
+        text-transform: capitalize;
       }
 
       .title {
         text-align: center;
-        font-size: 5vw;
-        line-height: 0;
-        margin-top: 2.5vh;
       }
 
-      .quoteContainer * {
+      .news * {
         margin: 0 auto;
-        display: flex;
+        display: block;
         text-align: center;
-        font-size: 5vw;
-        font-style: italic;
-        width: 70vw;
       }
 
-      .quoteContainer q {
+      .news img {
+        border: 1px solid black;
+        max-width: 50vw;
+      }
+
+      .news p {
         margin-top: 20px;
+        font-size: 1.25em;
+        font-weight: 500;
+        max-width: 70vw;
+
       }
 
       canvas {
@@ -59,13 +69,24 @@
   </head>
   <body>
     <div class="title">
-      <img src="title.gif" class="title" />
-      <h1>LEFOLG!</h1>
+      <h1>The Leftist Men</h1>
+      <h3>The wealth of the rich man, and the ideals of the common poorman</h3>
     </div>
 
-    <div class="quoteContainer">
-      <img src="eric.jpg" />
-      <q>The wealth of the rich man, and the ideals of the common poorman</q>
+    <div class="news">
+      <img src="Free-Time.jpg" />
+      <p>Free Time is a new musical proudly presented by The Leftist Men about a group of high school boys suffering from a lack of freetime. This emotional and exciting musical has critics raving over about its catchy tunes, powerful lyrics, and thought-provoking message.</p><p>
+
+The story centers around a group of four boys who are struggling to balance their academic responsibilities with their desire to have fun and enjoy their youth. They are constantly stressed and overwhelmed by the pressure to succeed, and they feel like they never have a moment of free time to just be themselves.</p><p>
+
+As the boys navigate their way through the challenges of high school life, they encounter a variety of colorful characters, including a strict drama teacher who pushes them to their limits, a rebellious classmate who encourages them to let loose, and a wise janitor who teaches them the value of hard work and perseverance.</p><p>
+
+Through a series of catchy musical numbers and heartfelt solos, the boys express their frustrations, dreams, and hopes for the future. They ultimately learn that while life can be tough and demanding, it's important to make time for the things that matter most.</p><p>
+
+Free Time is a moving and inspiring musical that speaks to the universal struggles of adolescence and the importance of balancing hard work with leisure time. With its talented cast, vibrant choreography, and powerful music, this production is sure to be a hit with audiences of all ages.</p><p>
+
+<b>Show dates, times, and location will be made available soon, so stay tuned!</b>
+</p>
     </div>
 
     <div class="map">
@@ -99,77 +120,5 @@
         <p>Berkley</p>
         <p>Santa Barbara</p>
     </div>
-
-    <canvas id="ericCanvas"></canvas>
-    <script>
-      // https://stackoverflow.com/questions/67425099/display-bounce-off-the-walls-object-on-the-page
-      var canvas = document.getElementById("ericCanvas");
-      var context = canvas.getContext("2d");
-      let timeout;
-
-      function setup() {
-        clearTimeout(timeout); // ADDED
-        var width = window.innerWidth; // CHANGED
-        var height = window.innerHeight; // CHANGED
-
-        canvas.width = width; // ADDED
-        canvas.height = height; //ADDED
-
-        const eric = new Image(250, 250);
-        eric.src = "head.png";
-
-        var ball = {
-          x: 100,
-          y: 100,
-          radius: 25,
-          xSpeed: 3,
-          ySpeed: 3,
-          draw: function (ctx) {
-            ctx.beginPath();
-            ctx.font = "48px serif";
-            ctx.drawImage(eric, this.x - 25, this.y - 50, 150, 150);
-          },
-          move: function () {
-            this.x += this.xSpeed;
-            this.y += this.ySpeed;
-          },
-        };
-
-        timeout = setInterval(function () {
-          context.clearRect(0, 0, width, height);
-          context.strokeRect(0, 0, width, height);
-
-          ball.move();
-
-          // right
-          if (ball.x + ball.radius >= width) {
-            ball.x = width - ball.radius;
-            ball.xSpeed = -ball.xSpeed;
-          }
-
-          // left
-          if (ball.x - ball.radius <= 0) {
-            ball.x = ball.radius;
-            ball.xSpeed = -ball.xSpeed;
-          }
-
-          // down
-          if (ball.y + ball.radius >= height) {
-            ball.y = height - ball.radius;
-            ball.ySpeed = -ball.ySpeed;
-          }
-
-          // up
-          if (ball.y - ball.radius <= 0) {
-            ball.y = ball.radius;
-            ball.ySpeed = -ball.ySpeed;
-          }
-
-          ball.draw(context);
-        }, 10);
-      }
-      window.onresize = setup;
-      setup();
-    </script>
   </body>
 </html>
