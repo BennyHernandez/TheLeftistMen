@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+i {
+  display: inline-block;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  color: #131313;
+}
+
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #131313;
+  color: #fff;
+  transition: height ease 0.25s;
+}
+
+.header .row {
+  padding-top: 0;
+  max-width: 75rem;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.header .row ul {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 100%;
+}
+
+.header .row li {
+  order: unset;
+  padding: 0;
+  position: relative;
+}
+
+.header .row li:first-of-type {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  padding-left: 115px;
+}
+
+.header .eric {
+  position: fixed;
+  right: 0;
+  bottom: -15rem;
+  transition: bottom ease 5.5s;
+}
+
+.header .row li:first-of-type > .nav-logo:hover + .eric {
+  bottom: -2.5rem;
+  transition: bottom ease 2.5s;
+}
+
+.header #lefolgCtrl {
+  display: none;
+}
+
+.header .lefolg {
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 15px 0 #000,
+    3px 3px 0 #000;
+  position: fixed;
+  font-size: 30rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header #lefolgCtrl:disabled + .lefolg {
+  animation: fadein 10s linear forwards, rainbow 10s infinite;
+}
+
+@keyframes fadein {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50%,
+  80% {
+    opacity: 1;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    color: orange;
+  }
+  10% {
+    color: purple;
+  }
+  20% {
+    color: red;
+  }
+  30% {
+    color: CadetBlue;
+  }
+  40% {
+    color: yellow;
+  }
+  50% {
+    color: coral;
+  }
+  60% {
+    color: green;
+  }
+  70% {
+    color: cyan;
+  }
+  80% {
+    color: DeepPink;
+  }
+  90% {
+    color: DodgerBlue;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+.header .row a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header .row li:not(:first-of-type) a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header .row li:not(:first-of-type) a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.header button {
+  color: white;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border-radius: 0;
+  border-style: none;
+  background: none;
+  padding: 10px;
+  border: #fff solid 2px;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+}
+
+.header button:hover {
+  background: #fff;
+  color: #131313;
+  transition: all 0.25s ease-in;
+}
+
+.nav-logo {
+  display: inline-block;
+  background: url(./assets/Seal2.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  top: -30px;
+  left: -15px;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  transition: all ease 0.25s;
+}
+
+.news {
+  margin-top: 125px;
+}
+
+.news * {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.news img {
+  display: block;
+  border: 1px solid black;
+  max-width: 50vw;
+}
+
+.news p {
+  margin-top: 20px;
+  font-size: 1.25em;
+  font-weight: 500;
+  max-width: 70vw;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: none;
+  pointer-events: none;
+}
+
+.map {
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.map iframe {
+  margin: 0 auto;
+  display: flex;
+}
+
+i {
+  font-weight: 500;
+}
