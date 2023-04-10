@@ -151,7 +151,7 @@ body {
   color: inherit;
 }
 
-.header .row li:not(:first-of-type) a::after {
+.header .row li:not(:first-of-type) > a::after {
   content: "";
   position: absolute;
   width: 100%;
