@@ -12,6 +12,7 @@ html {
 body {
   font-family: sans-serif;
   color: #131313;
+  margin: 0;
 }
 
 ::after,
@@ -241,6 +242,47 @@ body {
   height: 100px;
   width: 100px;
   transition: all ease 0.25s;
+}
+
+.banner {
+  margin: 0;
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+.banner img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.home-title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.home-title h1.text-header {
+  margin: auto;
+  font-size: 4rem;
+  line-height: 10rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+
+.home-title h1.text-header span {
+  color: #1954ad;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.home-title p.text-subheader {
+  margin: auto;
+  font-size: 1.75rem;
+  font-weight: 500;
+  max-width: 70%;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
