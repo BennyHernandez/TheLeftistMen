@@ -231,7 +231,7 @@ body {
   transform: translateY(-13px) rotate(-45deg);
 }
 
-.nav-logo {
+.header .nav-logo {
   display: inline-block;
   background: url(./assets/Seal2.png) no-repeat;
   background-position: center;
@@ -285,6 +285,19 @@ body {
   max-width: 70%;
 }
 
+.gallery {
+  display: flex;
+  height: 20%;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+.gallery img {
+  width: 30%;
+  margin: 1rem;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header:not(.is-active) .row li:not(:first-of-type) {
     display: none;
@@ -335,46 +348,105 @@ body {
   }
 }
 
-.news {
-  margin-top: 125px;
-}
-
-.news * {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.news img {
-  display: block;
-  border: 1px solid black;
-  max-width: 50vw;
-}
-
-.news p {
-  margin-top: 20px;
-  font-size: 1.25em;
-  font-weight: 500;
-  max-width: 70vw;
-}
-
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: none;
-  pointer-events: none;
-}
-
 .map {
+  margin: 5em;
+}
+
+.map h2 {
+  width: 100%;
   text-align: center;
-  margin-top: 5vw;
+  font-size: 3rem;
 }
 
-.map iframe {
-  margin: 0 auto;
+.map .content {
   display: flex;
+  justify-content: center;
+  max-height: 30em;
 }
 
-i {
+.map .content div {
+  margin: 1em;
+}
+
+.map .gmap iframe {
+  width: 35em;
+  height: 100%;
+}
+
+.map .list {
+  display: flex;
+  flex-direction: column;
+}
+
+.map .list p {
+  margin-top: 0;
+  font-size: 1.25em;
+  line-height: 1.1em;
+  text-align: justify;
+}
+
+.map .list ul {
+  /* padding: 0; */
+  margin: 0;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 100%;
+  overflow: scroll;
+}
+
+.map .list li {
+  padding: 0.35em;
+  width: 20ch;
+  cursor: pointer;
+}
+
+.map i {
   font-weight: 500;
+  font-size: 0.75em;
+  width: 15ch;
+}
+
+.footer {
+  height: 100px;
+  background: #131313;
+  display: flex;
+  margin: auto;
+}
+
+.footer .title {
+  display: flex;
+  flex-direction: row;
+  margin: auto 0;
+  margin-left: 50px;
+}
+
+.footer .title .logo {
+  display: inline-block;
+  background: url(./assets/Seal2.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  height: 55px;
+  width: 55px;
+  left: -1rem;
+  transform: translate(2rem, -10px);
+}
+
+.footer .title a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  padding-left: 115px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer .info {
+  color: #fff;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  margin: 1rem;
 }

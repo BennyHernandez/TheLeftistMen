@@ -22,9 +22,10 @@
     <audio id="lefolgSfx" src="assets/bells.mp3"></audio>
     <meta
       name="description"
-      content="The Leftist Men are a group of men who support local groups such as community theatres, businesses, and charities. We want to make our town the best it can be. We have an ideology called Lefolg, meaning we have the wealth of the rich man, but the ideals of the common poor man."
+      content="The Leftist Men are an organization based in Roseville, CA that support local groups and have an ideology called Lefolg: the wealth of the rich, but the ideals of the poor man."
     />
     <meta name="robots" content="index" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <div class="header">
@@ -74,81 +75,63 @@
         of the rich man, but the ideals of the common poor man.
       </p>
     </div>
-    <div class="gallery"></div>
-
-    <div class="news">
-      <img src="./assets/Free-Time.jpg" />
-      <p>
-        <i>Free Time</i> is a new musical proudly presented by The Leftist Men
-        about a group of high school boys suffering from a lack of free time.
-        This emotional and exciting musical has critics raving over about its
-        catchy tunes, powerful lyrics, and thought-provoking message.
-      </p>
-      <p>
-        The story centers around a group of four boys who are struggling to
-        balance their academic responsibilities with their desire to have fun
-        and enjoy their youth. They are constantly stressed and overwhelmed by
-        the pressure to succeed, and they feel like they never have a moment of
-        free time to just be themselves.
-      </p>
-      <p>
-        As the boys navigate their way through the challenges of high school
-        life, they encounter a variety of colorful characters, including a
-        strict drama teacher who pushes them to their limits, a rebellious
-        classmate who encourages them to let loose, and a wise janitor who
-        teaches them the value of hard work and perseverance.
-      </p>
-      <p>
-        Through a series of catchy musical numbers and heartfelt solos, the boys
-        express their frustrations, dreams, and hopes for the future. They
-        ultimately learn that while life can be tough and demanding, it's
-        important to make time for the things that matter most.
-      </p>
-      <p>
-        <i>Free Time</i> is a moving and inspiring musical that speaks to the
-        universal struggles of adolescence and the importance of balancing hard
-        work with leisure time. With its talented cast, vibrant choreography,
-        and powerful music, this production is sure to be a hit with audiences
-        of all ages.
-      </p>
-      <p>
-        <b
-          >Show dates, times, and location will be made available soon, so stay
-          tuned!</b
-        >
-        Written by Ben, Eric, Evan, and Matthew. Featuring Music by Ike.
-      </p>
+    <div class="gallery">
+      <img src="assets/gallery1.jpg" />
+      <img src="assets/gallery2.jpg" />
+      <img src="assets/gallery3.jpg" />
     </div>
     <div class="map">
-      <h2>Our Home</h2>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50117.82626133456!2d-121.30992954999999!3d38.271050949999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809aa0f793aad6d3%3A0x8c6587d2a3129ef1!2sGalt%2C%20CA%2095632!5e0!3m2!1sen!2sus!4v1672029799095!5m2!1sen!2sus"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-      <br />
-      <h2>Also Occupying</h2>
-      <p>Roseville <i>except Pleasant st and Oakwood Dr</i></p>
-      <p>Loomis</p>
-      <p>Galt</p>
-      <p>Knights Landing</p>
-      <p>Robbins</p>
-      <p>Auburn</p>
-      <p>Long Beach</p>
-      <p>Fair Oaks</p>
-      <p>Livingston</p>
-      <p>Turlock</p>
-      <p>Kingsburg</p>
-      <p>Granite Bay</p>
-      <p>Folsom</p>
-      <p>Fresno</p>
-      <p>Davis</p>
-      <p>Berkley</p>
-      <p>Santa Barbara</p>
+      <h2>Leftist Men Communities</h2>
+      <div class="content">
+        <div class="gmap" id="gmap">
+          <iframe
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen="false"
+            src="https://www.google.com/maps/embed/v1/place?q=Roseville&key=AIzaSyAXYmCz65OVgsVoaye6YDl5K5pMXv7NLP0"
+          ></iframe>
+        </div>
+        <div class="list">
+          <p>
+            The Leftist Men represents and serves over 15 local communities by
+            working to advance social, economic, and political justice for all
+            members within. We engage in community organizing and activism,
+            advocating for quality education, healthcare, workers' rights and
+            more. Our goal is to create a more equitable society, where everyone
+            has access to the resources and opportunities necessary to live a
+            fulfilling life.
+          </p>
+          <ul>
+            <li>Roseville <br /><i>except Pleasant St and Oakwood Dr</i></li>
+            <li>Loomis</li>
+            <li>Galt</li>
+            <li>Knights Landing</li>
+            <li>Robbins</li>
+            <li>Auburn</li>
+            <li>Long Beach</li>
+            <li>Fair Oaks</li>
+            <li>Livingston</li>
+            <li>Turlock</li>
+            <li>Kingsburg</li>
+            <li>Granite Bay</li>
+            <li>Folsom</li>
+            <li>Fresno</li>
+            <li>Davis</li>
+            <li>Berkley</li>
+            <li>Santa Barbara</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="title">
+        <a class="logo"></a>
+        <a href="https://theleftistmen.org">THE LEFTIST MEN</a>
+      </div>
+      <div class="info">
+        <p>Copyright 2023 The Leftist Men</p>
+        <p>Website built and designed by Benny Hernandez</p>
+      </div>
     </div>
   </body>
   <script>
@@ -168,6 +151,17 @@
       $(".hamburger").click(function () {
         $(".header").toggleClass("is-active");
       });
+    });
+
+    $(".map .list li").click(function () {
+      const location = $(this).html().split("<br")[0];
+      console.log(location);
+      $(".map .gmap iframe").attr(
+        "src",
+        "https://www.google.com/maps/embed/v1/place?q=" +
+          location +
+          " CA&key=AIzaSyAXYmCz65OVgsVoaye6YDl5K5pMXv7NLP0"
+      );
     });
   </script>
 </html>
