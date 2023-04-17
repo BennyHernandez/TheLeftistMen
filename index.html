@@ -33,19 +33,8 @@
         <ul>
           <li>
             <a class="nav-logo" href="https://theleftistmen.org"></a>
-            <label for="lefolgCtrl" class="eric"
-              ><img src="assets/eric head.png" height="250em"
-            /></label>
             <a href="https://theleftistmen.org">The Leftist Men</a>
           </li>
-
-          <input
-            type="checkbox"
-            class="lefolgCtrl"
-            id="lefolgCtrl"
-            onchange="document.getElementById('lefolgSfx').play(); this.setAttribute('disabled', 'disabled')"
-          />
-          <span class="lefolg">LEFOLG!</span>
           <li><a href="coming-soon.html">Who We Are</a></li>
           <li><a href="coming-soon.html">LEFOLG</a></li>
           <li><a href="coming-soon.html">Our Community</a></li>
@@ -133,6 +122,16 @@
         <p>Website built and designed by Benny Hernandez</p>
       </div>
     </div>
+    <label for="lefolgCtrl">
+      <img src="assets/eric head.png" height="250em" class="eric" />
+    </label>
+    <input
+      type="checkbox"
+      class="lefolgCtrl"
+      id="lefolgCtrl"
+      onchange="document.getElementById('lefolgSfx').play(); this.setAttribute('disabled', 'disabled')"
+    />
+    <span class="lefolg">LEFOLG!</span>
   </body>
   <script>
     window.onscroll = function () {
@@ -151,6 +150,18 @@
       $(".hamburger").click(function () {
         $(".header").toggleClass("is-active");
       });
+    });
+
+    let count,
+      time = 0;
+    $(".footer .logo").click(function () {
+      count++;
+      if (count >= 3 && Date.now() - time < 3000) {
+        $(".eric").toggleClass("active");
+        count = 0;
+      }
+      if (Date.now() - time > 3000) count = 1;
+      time = Date.now();
     });
 
     $(".map .list li").click(function () {

@@ -68,31 +68,32 @@ body {
 
 .header .row li:first-of-type {
   font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
+  font-size: 1.5em;
   padding-left: 115px;
 }
 
-.header .eric {
+.eric {
   position: fixed;
   right: 0;
   bottom: -15rem;
   transition: bottom ease 5.5s;
 }
 
-.header .row li:first-of-type > .nav-logo:hover + .eric {
+.eric.active {
   bottom: -2.5rem;
   transition: bottom ease 2.5s;
 }
 
-.header #lefolgCtrl {
+#lefolgCtrl {
   display: none;
 }
 
-.header .lefolg {
+.lefolg {
   text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 15px 0 #000,
     3px 3px 0 #000;
   position: fixed;
-  font-size: 25vw;
+  font-size: 15vw;
+  font-weight: 700;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -100,7 +101,7 @@ body {
   pointer-events: none;
 }
 
-.header #lefolgCtrl:disabled + .lefolg {
+#lefolgCtrl:disabled + .lefolg {
   animation: fadein 10s linear forwards, rainbow 10s infinite;
 }
 
