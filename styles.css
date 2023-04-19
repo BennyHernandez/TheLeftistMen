@@ -308,7 +308,8 @@ body {
   margin: 5em;
 }
 
-.map h2 {
+.map h2,
+.articles > h2 {
   width: 100%;
   text-align: center;
   font-size: 3rem;
@@ -407,6 +408,27 @@ body {
   position: absolute;
   right: 0;
   margin: 1rem;
+}
+
+.articles {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 125px;
+}
+
+.news-content {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 125px;
+}
+
+.news-content .article-img {
+  max-width: 25%;
+}
+
+.news-content .author-img {
+  margin-top: 5rem;
+  max-width: 7.5%;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
