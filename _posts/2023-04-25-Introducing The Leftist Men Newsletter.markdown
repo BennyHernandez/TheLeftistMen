@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Introducing The Leftist Men Newsletter"
-date: 2023-04-25 23:03:32 -0700
+date: 2023-04-25 12:00:00 -0700
 author: "David Taylor"
 categories: news
 ---
