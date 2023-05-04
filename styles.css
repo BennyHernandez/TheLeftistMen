@@ -261,6 +261,14 @@ body {
   overflow: hidden;
 }
 
+.free-time-banner {
+  margin-top: 100px;
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .home-title {
   display: flex;
   justify-content: center;
@@ -289,6 +297,18 @@ body {
   font-size: 1.75rem;
   font-weight: 500;
   max-width: 70%;
+}
+
+.home-title p.text-description {
+  margin: auto;
+  font-size: 1.25rem;
+  font-weight: 500;
+  max-width: 70%;
+}
+
+.home-title br {
+  display: block;
+  margin: 10px 0;
 }
 
 .gallery {
@@ -431,6 +451,77 @@ body {
   max-width: 7.5%;
 }
 
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+  width: 35%;
+  padding: 1.3rem;
+  min-height: 250px;
+  position: fixed;
+  top: 20%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  z-index: 6;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: fadein 3s;
+  text-align: center;
+}
+
+.modal .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.modal .buttons button {
+  flex: 1 1 0px;
+  margin: 2.5em;
+  color: white;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border-radius: 0;
+  border-style: none;
+  background: #131313;
+  padding: 10px;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  cursor: pointer;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+  animation: fadein 1.5s;
+}
+
+.hidden {
+  display: none;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header:not(.is-active) .row li:not(:first-of-type) {
     display: none;
@@ -561,5 +652,13 @@ body {
 
   .footer .info {
     top: 4rem;
+  }
+
+  .modal {
+    width: 60%;
+  }
+
+  .modal .buttons button {
+    margin: 1em;
   }
 }

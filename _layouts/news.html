@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="/styles.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
-  <body style="display: grid;">
+  <body style="display: grid">
     <div class="header">
       <div class="row">
         <ul>
@@ -35,7 +35,7 @@
           </li>
           <li><a href="/#who">Who We Are</a></li>
           <li><a href="/#communities">Our Communities</a></li>
-          <li><a href="coming-soon.html">LEFOLG</a></li>
+          <li><a href="/free-time.html">Free Time</a></li>
           <li><a href="/news">News</a></li>
           <li>
             <button><a href="coming-soon.html">SUBSCRIBE</a></button>
@@ -51,22 +51,20 @@
 
     <!-- CONTENT -->
     <div class="articles">
-        <h2>Leftist Men News</h2>
+      <h2>Leftist Men News</h2>
       {% for post in site.posts %}
-  <div class="article">
-    <h2>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    <time datetime="{{ post.date | date: "%m-%d-%Y" }}">{{ post.date | date_to_string: "ordinal", "US" }}</time>
-    <br>
-    <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-    </p>
-  </div>
-{% endfor %}
-</div>
+      <div class="article">
+        <h2>
+          <a href="{{ post.url }}"> {{ post.title }} </a>
+        </h2>
+        <time datetime="{{ post.date | date: '%m-%d-%Y' }}"
+          >{{ post.date | date_to_string: "ordinal", "US" }}</time
+        >
+        <br />
+        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      </div>
+      {% endfor %}
+    </div>
 
     <!-- <div class="footer" style="grid-area: footer;">
       <div class="title">
