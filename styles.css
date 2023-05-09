@@ -311,6 +311,32 @@ body {
   margin: 10px 0;
 }
 
+.home-title .button-group {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.home-title .buttons {
+  flex: 1;
+  flex-direction: row;
+}
+
+.home-title button {
+  color: white;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border-radius: 0;
+  border-style: none;
+  background: #131313;
+  padding: 10px;
+  cursor: pointer;
+}
+
 .gallery {
   display: flex;
   height: 20%;
