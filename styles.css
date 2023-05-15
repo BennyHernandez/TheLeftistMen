@@ -698,7 +698,7 @@ main:after {
   }
 
   .footer .info {
-    top: 4rem;
+    margin-top: 2rem !important;
   }
 
   .modal {
