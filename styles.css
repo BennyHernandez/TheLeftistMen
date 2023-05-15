@@ -442,7 +442,8 @@ body {
   transform: translate(2rem, -10px);
 }
 
-.footer .title a {
+.footer .title a,
+.footer .title span {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.5em;
   padding-left: 115px;
