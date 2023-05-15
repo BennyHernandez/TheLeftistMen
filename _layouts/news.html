@@ -1,99 +1,22 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta
-      name="description"
-      content="Leftist Men News! All the info you could possibly need about whats going on with text-header Leftist Men."
-    />
-    <meta name="robots" content="index" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-TNTPE36Q1Y"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+---
+title: "News | The Leftist Men"
+description: "Leftist Men News! All the info you could possibly need about whats going on with text-header Leftist Men."
+layout: tlm-default
+---
 
-      gtag("config", "G-TNTPE36Q1Y");
-    </script>
-    <title>The Leftist Men - News</title>
-    <link rel="stylesheet" href="/styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  </head>
-  <body style="display: grid">
-    <div class="header">
-      <div class="row">
-        <ul>
-          <li>
-            <a class="nav-logo" href="https://theleftistmen.org"></a>
-            <a href="https://theleftistmen.org">The Leftist Men</a>
-          </li>
-          <li><a href="/#who">Who We Are</a></li>
-          <li><a href="/#communities">Our Communities</a></li>
-          <li><a href="/free-time.html">Free Time</a></li>
-          <li><a href="/news">News</a></li>
-          <li>
-            <button><a href="coming-soon.html">SUBSCRIBE</a></button>
-          </li>
-          <div class="hamburger">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-          </div>
-        </ul>
-      </div>
-    </div>
-
-    <!-- CONTENT -->
-    <div class="articles">
-      <h2>Leftist Men News</h2>
-      {% for post in site.posts %}
-      <div class="article">
-        <h2>
-          <a href="{{ post.url }}"> {{ post.title }} </a>
-        </h2>
-        <time datetime="{{ post.date | date: '%m-%d-%Y' }}"
-          >{{ post.date | date_to_string: "ordinal", "US" }}</time
-        >
-        <br />
-        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-      </div>
-      {% endfor %}
-    </div>
-
-    <!-- <div class="footer" style="grid-area: footer;">
-      <div class="title">
-        <a class="logo"></a>
-        <a href="https://theleftistmen.org">THE LEFTIST MEN</a>
-      </div>
-      <div class="info">
-        <p>Copyright 2023 The Leftist Men</p>
-        <p>Website built and designed by Benny Hernandez</p>
-      </div>
-    </div> -->
-  </body>
-  <script>
-    window.onscroll = function () {
-      if (document.documentElement.scrollTop > 50 && screen.width > 480) {
-        document.getElementsByClassName("header")[0].style.height = "50px";
-        document.getElementsByClassName("nav-logo")[0].style.top = "-100px";
-        document.getElementsByClassName("nav-logo")[0].style.opacity = "0";
-      } else {
-        document.getElementsByClassName("header")[0].style.height = "";
-        document.getElementsByClassName("nav-logo")[0].style.top = "";
-        document.getElementsByClassName("nav-logo")[0].style.opacity = "";
-      }
-    };
-
-    $(document).ready(function () {
-      $(".hamburger").click(function () {
-        $(".header").toggleClass("is-active");
-      });
-    });
-  </script>
-</html>
+<!-- CONTENT -->
+<div class="articles">
+  <h2>Leftist Men News</h2>
+  {% for post in site.posts %}
+  <div class="article">
+    <h2>
+      <a href="{{ post.url }}"> {{ post.title }} </a>
+    </h2>
+    <time datetime="{{ post.date | date: '%m-%d-%Y' }}"
+      >{{ post.date | date_to_string: "ordinal", "US" }}</time
+    >
+    <br />
+    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+  </div>
+  {% endfor %}
+</div>
