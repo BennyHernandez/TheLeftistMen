@@ -272,7 +272,6 @@ main:after {
 
 .banner {
   margin: 0;
-  /* margin-top: 100px; */
   max-width: 100%;
 }
 
@@ -572,6 +571,10 @@ main:after {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .banner img {
+    margin-top: 100px;
+  }
+
   .header:not(.is-active) .row li:not(:first-of-type) {
     display: none;
   }
