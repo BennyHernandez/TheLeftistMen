@@ -95,6 +95,7 @@ main:after {
   position: fixed;
   right: 0;
   bottom: -15rem;
+  z-index: 999;
   transition: bottom ease 5.5s;
 }
 
