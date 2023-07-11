@@ -110,29 +110,8 @@ layout: tlm-default
   onchange="document.getElementById('lefolgSfx').play(); this.setAttribute('disabled', 'disabled')"
 />
 <span class="lefolg">LEFOLG!</span>
-<div class="modal hidden">
-  <div>
-    <h1>Free Time: A New Musical</h1>
-    <p>
-      Discover "Free Time," the latest musical by The Leftist Men, portraying
-      the struggles of high school boys as they balance their academic duties
-      with their desire to enjoy life, all while singing powerful lyrics and
-      catchy tunes that will leave you feeling inspired.
-    </p>
-  </div>
-
-  <div class="buttons">
-    <button onclick="window.location.href='/free-time.html'">Learn More</button>
-    <button id="close">Close</button>
-  </div>
-</div>
-<div class="overlay hidden"></div>
 <script>
   $(document).ready(function () {
-    $(".modal #close").click(function () {
-      $(".overlay, .modal").addClass("hidden");
-    });
-
     $(".map .list li").click(function () {
       const location = $(this).html().split("<br")[0];
       console.log(location);
@@ -143,7 +122,5 @@ layout: tlm-default
           " CA&key=AIzaSyAXYmCz65OVgsVoaye6YDl5K5pMXv7NLP0"
       );
     });
-
-    if (!window.location.hash) $(".overlay, .modal").removeClass("hidden");
   });
 </script>
