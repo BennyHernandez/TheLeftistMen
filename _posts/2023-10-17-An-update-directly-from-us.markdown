@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "An update, directly from us"
-date: 2023-10-17 23:03:32 -0700
+date: 2023-10-17 00:00:00 -0700
 author: "TLM"
 categories: news
 ---
