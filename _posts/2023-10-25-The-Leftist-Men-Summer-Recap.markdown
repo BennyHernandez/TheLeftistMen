@@ -37,7 +37,7 @@ By the 18th of May, act one of Free Time was done; The Leftist Men met up with B
 ![Free Time cast working on the script at the park](/assets/posts/FreeTimeWriting1.jpg){:class="article-img-medium"}
 ![The Leftist Men and associates working on the script at Fig Tree](/assets/posts/FreeTimeWriting2.jpg){:class="article-img-medium"}
 
-*Later that day, the first Free Time scripts were printed and the following day the first rehearsal of many, was underway.*
+Later that day, the first Free Time scripts were printed and the following day the first rehearsal of many, was underway.
 
 Act two of Free Time was written in the last week and half of May, this time with the help of all The Leftist Men for a few scenes as well as the Finale song. The Finale song is the only song in the show that Ike didn’t write the lyrics for, so the men decided to write the last one together. After spending the end of May, rehearsing, writing, and partying, Free Time was finally completed on May 30th, just one day before opening in Galt.
 
@@ -81,7 +81,7 @@ For years and years, the sexuality of Eric had been speculated on constantly. Bu
 
 ![Eric in his fruity era](/assets/posts/EricHS.jpg){:class="article-img-medium"}
 
-Evan couldn’t make it to the trial, unfortunately, but in my mind, he would have been the bailiff. Ben and Matthew served as Eric’s defense team, effortlessly defending him from the prosecutors, Emma and Lea. Megan presided over this case as the judge. Shown on the left, is one of the many pieces of evidence used against Eric in this case. But Eric’s defense team managed to cross-examine the prosecution and give reasons as to why Eric might’ve made this sort of pose three years ago.
+Evan couldn’t make it to the trial, unfortunately, but in my mind, he would have been the bailiff. Ben and Matthew served as Eric’s defense team, effortlessly defending him from the prosecutors, Emma and Lea. Megan presided over this case as the judge. Shown above, is one of the many pieces of evidence used against Eric in this case. But Eric’s defense team managed to cross-examine the prosecution and give reasons as to why Eric might’ve made this sort of pose three years ago.
 
 I called Eric on the phone and asked him about this picture. “That was by far one of the most damning pieces of evidence they provided,” Eric said. “Sometimes it’s hard to believe I walked out of there a man who was not gay.”
 
@@ -102,7 +102,7 @@ At this point in July, about a month had passed since Ben applied for the dealer
 
 ![Six Flags trip with Emma and Lea](/assets/posts/SixFlags.jpg){:class="article-img-medium"}
 
-*Towards the end of July, Matthew, Eric, Lea, and Emma would all come together and head to Six Flags just as they did two years prior. A few mishaps and misfortunes happened on the way to Six Flags and while at the park itself, but in the end, all worked out well and they made it back home in one piece.*
+Towards the end of July, Matthew, Eric, Lea, and Emma would all come together and head to Six Flags just as they did two years prior. A few mishaps and misfortunes happened on the way to Six Flags and while at the park itself, but in the end, all worked out well and they made it back home in one piece.
 
 ---
 
@@ -114,7 +114,7 @@ August began with a few home improvements for a few of The Leftist Men. A few ca
 
 The most notable issues are the the paint chipping, issues with the alternator, coolant leaks and the car not cooling down. Then an odd issue when it came to starting the car. After the car was turned off, you would not be able to turn it on again for anywhere between 5 and 45 minutes. Nobody knows what’s causing the problem.
 
-Home improvements would continue at Eric’s house with a reorganization and a reimagination of his room. The room just did not look like it was working out for him and didn’t seem that practical. So with the help of a few others, his room was redone and made into something much more sustainable. Pictured to the left, is a floor plan of the new room. This configuration would lead to a much more open floor plan and a layout that wasn’t as suffocating as the last one was.
+Home improvements would continue at Eric’s house with a reorganization and a reimagination of his room. The room just did not look like it was working out for him and didn’t seem that practical. So with the help of a few others, his room was redone and made into something much more sustainable. Pictured below, is a floor plan of the new room. This configuration would lead to a much more open floor plan and a layout that wasn’t as suffocating as the last one was.
 
 ![The floorplan for Eric's new room](/assets/posts/EricsRoom1.jpg){:class="article-img-medium"}
 
@@ -127,7 +127,7 @@ Back at the Baldwin house, another room was being redone. There had been a spare
 
 ![TLM Museum at the Baldwin house](/assets/posts/Museum.jpg){:class="article-img-medium"}
 
-*Shown on the left, is a very early rendition of the museum with a lot of items missing. Some standouts in the museum are the Woody dolls, Bev Bos letters, Emma’s paintings, Lefolg flag, as well as Ike’s maze that he created back in 2019. Since then, countless items have been added such as metal pieces that we’ve used to dig things out of the ground, A Leftist Men cardboard cutout, the Free Time script, and countless more items with many more to come.*
+*Shown above, is a very early rendition of the museum with a lot of items missing. Some standouts in the museum are the Woody dolls, Bev Bos letters, Emma’s paintings, Lefolg flag, as well as Ike’s maze that he created back in 2019. Since then, countless items have been added such as metal pieces that we’ve used to dig things out of the ground, A Leftist Men cardboard cutout, the Free Time script, and countless more items with many more to come.*
 
 Summer was coming to a close for The Leftist Men, or three of them at least. Benny suggested that everyone go camping together as a big end-of-summer event. The Leftist Men and everyone else gathered together with about a week left of summer and drove to Foresthill and enjoyed a two day camping trip. Unfortunately, Evan could not attend this trip due to prior commitments, but he was there in my heart. The trip went very well overall, everyone got along and each night ended around the campfire, talking, joking, and making smores.
 
@@ -135,7 +135,7 @@ Summer was coming to a close for The Leftist Men, or three of them at least. Ben
 ![Eric and Matthew sitting by the fire](/assets/posts/CampingFire.jpg){:class="article-img-medium"}
 ![Ben enjoying the lake](/assets/posts/CampingBen.jpg){:class="article-img-medium"}
 
-*Benny after setting up his tent \| The Leftist Men by the fire. \| Ben getting baptized in the lake.*
+*Benny after setting up his tent. \| The Leftist Men by the fire. \| Ben getting baptized in the lake.*
 
 ![Ben, Matthew and Joe paddle boarding](/assets/posts/CampingFloating.jpg){:class="article-img-medium"}
 ![The campfire on the last day](/assets/posts/CampingMorning.jpg){:class="article-img-medium"}
@@ -184,15 +184,17 @@ Take a moment to soak in the sunshine
 
 I’m here to show you, you can do it too
 
-Chorus:
+Budding young minds, just begging to bloom. 
 
-Now I know the value of free time,
+Chorus: 
 
-Take a break try something new
+No room to grieve 
 
-Take a moment to soak in the sunshine
+I've been bereaved 
 
-I’m here to show you, you can do it too
+But do I really deserve the blame? 
+
+Now my husband wants me out of the frame. 
 
 **Literature Lament**
 
@@ -203,20 +205,6 @@ Students and teacher: the separated twain.
 Ashes and memories are all that remain.
 
 Heart stripped of hope and bursting with gloom.
-
-**Dog song**
-
-Ooooohh, I’m a dog
-
-Who doesn’t like the smog
-
-But maybe I can break the fog
-
-And help everyone get along
-
-(Guitar solo)
-
-Ooooh I’m a dog1
 
 ![Some sketches from designing Free Time](/assets/posts/FreeTimeSketch.png){:class="article-img-medium"}
 ![Some sketches from designing Free Time](/assets/posts/FreeTimeSketch2.png){:class="article-img-medium"}

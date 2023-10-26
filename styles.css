@@ -289,6 +289,30 @@ main:after {
   transform: translateX(-50%);
 }
 
+h1.page-title {
+  margin-top: 200px;
+  font-size: 7.5em;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  font-size: 1.25em;
+}
+
+.contact > * {
+  padding: 1.5em;
+  margin: 0 auto;
+}
+
+.contact img {
+  max-height: 60vh;
+}
+
+.contact .title {
+  font-weight: 700;
+}
+
 .home-title {
   display: flex;
   justify-content: center;
@@ -587,6 +611,96 @@ main:after {
   display: none;
 }
 
+h2 {
+  padding: 0 1rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.testimonials-container {
+  padding: 0 40px;
+  margin: 30px 0 50px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  flex-wrap: wrap;
+}
+
+.testimonials-container h2 {
+  padding: 10px 10px 15px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+
+.testimonial {
+  width: 25%;
+  border-radius: 20px;
+  background: linear-gradient(
+    to right bottom,
+    #0968d460,
+    #1364c060,
+    #2266b460,
+    #3e77b860,
+    #649ddf60
+  );
+  padding: 20px;
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.testimonial:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -15px;
+  right: 50px;
+  width: 0;
+  border-width: 15px 20px 0;
+  border-style: solid;
+  border-color: #0968d460 transparent;
+}
+
+.testimonial h3 {
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonal-author {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+}
+
+.testimonials-container span {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+@media all AND (max-width: 700px) {
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial {
+    width: 90%;
+    margin-bottom: 60px;
+  }
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .banner img {
     margin-top: 100px;
@@ -732,10 +846,22 @@ main:after {
   }
 
   .news-content .article-img {
-    max-width: 100%;
+    width: 100% !important;
   }
 
   .news-content .article-img-medium {
-    max-width: 75%;
+    width: 75% !important;
+  }
+
+  .page-title {
+    font-size: 3em !important;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact img {
+    width: 80%;
   }
 }
