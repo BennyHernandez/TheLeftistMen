@@ -488,10 +488,27 @@ main:after {
   max-width: 80%;
   margin: auto;
   margin-top: 125px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.news-content table {
+  border-collapse: collapse;
+}
+
+.news-content td img {
+  width: 99%;
+}
+
+.news-content td em {
+  white-space: nowrap;
 }
 
 .news-content .article-img {
-  max-width: 25%;
+  width: 50%;
+}
+
+.news-content .article-img-medium {
+  width: 15%;
 }
 
 .news-content .author-img {
@@ -712,5 +729,13 @@ main:after {
 
   .modal .buttons button {
     margin: 1em;
+  }
+
+  .news-content .article-img {
+    max-width: 100%;
+  }
+
+  .news-content .article-img-medium {
+    max-width: 75%;
   }
 }
