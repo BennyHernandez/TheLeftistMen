@@ -4,7 +4,7 @@ title: "The Leftist Men Summer Recap"
 date: 2023-10-25 00:00:00 -0700
 author: "Lynn Lylan"
 categories: news
-published: false
+hide: 1
 ---
 
 ![The Men at the cemetary](/assets/posts/TheMen.jpg){:class="article-img"}
