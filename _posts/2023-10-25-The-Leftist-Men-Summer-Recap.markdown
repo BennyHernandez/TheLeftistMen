@@ -4,7 +4,6 @@ title: "The Leftist Men Summer Recap"
 date: 2023-10-25 00:00:00 -0700
 author: "Lynn Lylan"
 categories: news
-hide: 1
 ---
 
 ![The Men at the cemetary](/assets/posts/TheMen.jpg){:class="article-img"}
@@ -102,7 +101,7 @@ At this point in July, about a month had passed since Ben applied for the dealer
 
 ![Six Flags trip with Emma and Lea](/assets/posts/SixFlags.jpg){:class="article-img-medium"}
 
-Towards the end of July, Matthew, Eric, Lea, and Emma would all come together and head to Six Flags just as they did two years prior. A few mishaps and misfortunes happened on the way to Six Flags and while at the park itself, but in the end, all worked out well and they made it back home in one piece.
+Towards the end of July, Matthew, Eric, Lea, and Emma would all come together and head to Six Flags just as they did two years prior. A few mishaps and misfortunes happened on the way to Six Flags and while at the park, but in the end, all worked out well and they made it back home in one piece.
 
 ---
 
