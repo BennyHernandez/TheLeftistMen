@@ -24,6 +24,7 @@ main {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: 100px;
+  overflow-x: hidden;
 }
 
 main:after {
