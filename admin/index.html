@@ -12,5 +12,37 @@
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+    <script type="module">
+      CMS.registerPreviewStyle("/styles.css");
+
+      var PostPreview = createClass({
+        render: function () {
+          var entry = this.props.entry;
+
+          return h(
+            "div",
+            { className: "news-content" },
+            h("h1", {}, entry.getIn(["data", "title"])),
+            h(
+              "h3",
+              {},
+              entry
+                .getIn(["data", "date"])
+                .toLocaleDateString("en-us", {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                }) +
+                " - " +
+                entry.getIn(["data", "author"])
+            ),
+            this.props.widgetFor("body")
+          );
+        },
+      });
+
+      CMS.registerPreviewTemplate("news", PostPreview);
+    </script>
   </body>
 </html>
