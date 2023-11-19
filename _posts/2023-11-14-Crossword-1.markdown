@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "The Leftist Men Crossword #1"
-date: 2023-11-14 00:00:00 -0700
+date: 2023-11-14T22:46:31.803Z
 author: "David Taylor"
 categories: news
 ---
