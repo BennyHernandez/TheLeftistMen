@@ -8,7 +8,7 @@ categories: news
 
 ![Lend Me A Tenor](/assets/posts/LendMeATenor.png){:class="article-img"}
 
-Recently David and I got the opportunity to see the opening night of Sierra College's rendition of *Lend Me a Tenor*, starring The Leftist Men's very own Matthew Quady and directed by Scott Adams.
+Recently David and I got the opportunity to see the opening night of Sierra College's rendition of *Lend Me a Tenor*, starring The Leftist Men's very own Matthew and directed by Scott Adams.
 
 The theater was absolutely packed with people coming to see a Leftist Man perform on stage in this clever farce. The entire crowd was cackling at Matthew’s whimsical humor and they were demanding an encore by the end of the show. I found myself crying with laughter throughout the show and then sobbing that it had to end so soon. The comedic timing in the show was perfect and you could tell the acting and directing was extremely professional. At one point Matthew fell and crashed into the wall as he was scrambling to exit. When we interviewed him afterwards he informed us that it was actually not a real fall, what amazing acting!
 
@@ -29,5 +29,5 @@ While we do not know the rest of the cast and crew as well as we know about The 
 Overall the show was fantastic. You can tell the actors and crew put an incredible amount of effort and love into making this show. The costumes and set were beautiful and well built, and the performance was hilarious. Another great Leftist Man show for the books! Tune in next time for more news about The Leftist Men!
 
 **Bonus Interview:**
-Mrs. Quady recognized us in the audience and wanted to share her thoughts. 
+Jennifer recognized us in the audience and wanted to share her thoughts. 
 “I’m so proud of Matthew, the whole family went to see opening night and it was so much fun. He did a really good job and I’m glad Evans back in town. It’s great to see them working together again.”
