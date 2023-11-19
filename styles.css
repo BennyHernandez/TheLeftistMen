@@ -74,7 +74,6 @@ main:after {
   display: flex;
   margin: 0;
   align-items: center;
-  flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
   height: 100%;
@@ -406,6 +405,42 @@ h1.page-title {
   width: 100%;
   text-align: center;
   font-size: 3rem;
+}
+
+.articles .list {
+  display: flex;
+}
+
+.announcements {
+  padding: 1em;
+  margin-top: 2.5em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.announcements h2 {
+  text-align: center;
+}
+
+.announcements .list {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.announcement {
+  flex: 1;
+  padding: 1em;
+}
+
+.announcement .vr {
+  display: inline;
+  height: 150px;
+  width: 1px;
+  border: 1px inset;
+  margin: 5px;
+  background-color: black;
 }
 
 .map .content {
@@ -864,5 +899,14 @@ h2 {
 
   .contact img {
     width: 80%;
+  }
+
+  .announcements .list {
+    flex-direction: column;
+  }
+
+  .announcements .list hr {
+    margin-left: 0;
+    margin-right: 0;
   }
 }

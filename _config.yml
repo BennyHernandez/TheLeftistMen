@@ -24,6 +24,9 @@ description: "The Leftist Men are an organization based in Roseville, CA that su
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theleftistmen.org" # the base hostname & protocol for your site, e.g. http://example.com
 
+collections:
+  - announcements
+
 # Build settings
 plugins:
   - jekyll-feed

@@ -23,6 +23,42 @@ layout: tlm-default
   <h2>"The Customer Is Always Right!"</h2>
   <i>–Analyse G.</i>
 </div>
+
+<div class="announcements">
+  <h2>Announcements</h2>
+  <div class="list">
+    <div class="announcement">
+      <h3>{{site.announcements[0].title}}</h3>
+      <time datetime="{{ announcement.date | date: '%m-%d-%Y' }}"
+        >{{ site.announcements[0].date | date_to_string: "ordinal", "US"
+        }}</time
+      >
+      <span>{{site.announcements[0].content}} </span>
+    </div>
+    <hr>
+
+    <div class="announcement">
+      <h3>{{site.announcements[1].title}}</h3>
+      <time datetime="{{ announcement.date | date: '%m-%d-%Y' }}"
+        >{{ site.announcements[1].date | date_to_string: "ordinal", "US"
+        }}</time
+      >
+      <span>{{site.announcements[1].content}} </span>
+    </div>
+    <hr>
+
+
+    <div class="announcement">
+      <h3>{{site.announcements[2].title}}</h3>
+      <time datetime="{{ announcement.date | date: '%m-%d-%Y' }}"
+        >{{ site.announcements[2].date | date_to_string: "ordinal", "US"
+        }}</time
+      >
+      <span>{{site.announcements[2].content}} </span>
+    </div>
+    </div>
+  </div>
+</div>
 <div class="gallery">
   <!-- <img
     src="assets/gallery1.jpg"

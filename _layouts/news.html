@@ -7,16 +7,20 @@ layout: tlm-default
 <!-- CONTENT -->
 <div class="articles">
   <h2>Leftist Men News</h2>
-  {% for post in site.posts %} {% if post.hide != 1 %}
-  <div class="article">
-    <h2>
-      <a href="{{ post.url }}"> {{ post.title }} </a>
-    </h2>
-    <time datetime="{{ post.date | date: '%m-%d-%Y' }}"
-      >{{ post.date | date_to_string: "ordinal", "US" }}</time
-    >
-    <br />
-    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+  <div class="list">
+    <div>
+      {% for post in site.posts %} {% if post.hide != 1 %}
+      <div class="article">
+        <h2>
+          <a href="{{ post.url }}">{{ post.title }} </a>
+        </h2>
+        <time datetime="{{ post.date | date: '%m-%d-%Y' }}"
+          >{{ post.date | date_to_string: "ordinal", "US" }}</time
+        >
+        <br />
+        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      </div>
+      {% endif %} {% endfor %}
+    </div>
   </div>
-  {% endif %} {% endfor %}
 </div>
