@@ -24,37 +24,38 @@ layout: tlm-default
   <i>–Analyse G.</i>
 </div>
 
+{% assign sortedAnnouncements = site.announcements | reverse %}
 <div class="announcements">
   <h2>Announcements</h2>
   <div class="list">
     <div class="announcement">
-      <h3>{{site.announcements[0].title}}</h3>
+      <h3>{{sortedAnnouncements[0].title}}</h3>
       <time datetime="{{ announcement.date | date: '%m-%d-%Y' }}"
-        >{{ site.announcements[0].date | date_to_string: "ordinal", "US"
+        >{{ sortedAnnouncements[0].date | date_to_string: "ordinal", "US"
         }}</time
       >
-      <span>{{site.announcements[0].content}} </span>
+      <span>{{sortedAnnouncements[0].content}} </span>
     </div>
     <hr>
 
     <div class="announcement">
-      <h3>{{site.announcements[1].title}}</h3>
+      <h3>{{sortedAnnouncements[1].title}}</h3>
       <time datetime="{{ announcement.date | date: '%m-%d-%Y' }}"
-        >{{ site.announcements[1].date | date_to_string: "ordinal", "US"
+        >{{ sortedAnnouncements[1].date | date_to_string: "ordinal", "US"
         }}</time
       >
-      <span>{{site.announcements[1].content}} </span>
+      <span>{{sortedAnnouncements[1].content}} </span>
     </div>
     <hr>
 
 
     <div class="announcement">
-      <h3>{{site.announcements[2].title}}</h3>
+      <h3>{{sortedAnnouncements[2].title}}</h3>
       <time datetime="{{ announcement.date | date: '%m-%d-%Y' }}"
-        >{{ site.announcements[2].date | date_to_string: "ordinal", "US"
+        >{{ sortedAnnouncements[2].date | date_to_string: "ordinal", "US"
         }}</time
       >
-      <span>{{site.announcements[2].content}} </span>
+      <span>{{sortedAnnouncements[2].content}} </span>
     </div>
     </div>
   </div>
