@@ -41,4 +41,4 @@ ages.
 Written by Ben, Eric, Evan, and Matthew. Featuring Music by Ike.
 
 ![David Taylor](/assets/posts/david-taylor.jpg){:class="author-img"}
-David Taylor is a writer for all things Leftist Men. He has been a big part of building them up to who they are today with his outstanding op-ed pieces and other fantastic contributions.
+David Taylor is a writer for all things LEFOLG. He has been a big part of building them up to who they are today with his outstanding op-ed pieces and other fantastic contributions.

@@ -17,4 +17,4 @@ When reaching out to Evan about his past work with Emma he said, “I had such a
 The members of LEFOLG, Ike, and now Emma, have been working very hard on writing and creating Free Time for these past few weeks. They will continue to do so until they feel as though they have the best possible product that they can bring to the table. It’s also been revealed that rehearsals are expected to start at the beginning of May. They are very excited about the May 31st world premiere and I’m sure most other people are just as excited as they are.
 
 ![David Taylor](/assets/posts/david-taylor.jpg){:class="author-img"}
-David Taylor is a writer for all things Leftist Men. He has been a big part of building them up to who they are today with his outstanding op-ed pieces and other fantastic contributions.
+David Taylor is a writer for all things LEFOLG. He has been a big part of building them up to who they are today with his outstanding op-ed pieces and other fantastic contributions.

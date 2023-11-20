@@ -12,7 +12,7 @@ Recently David and I got the opportunity to see the opening night of Sierra Coll
 
 The theater was absolutely packed with people coming to see a Leftist Man perform on stage in this clever farce. The entire crowd was cackling at Matthew’s whimsical humor and they were demanding an encore by the end of the show. I found myself crying with laughter throughout the show and then sobbing that it had to end so soon. The comedic timing in the show was perfect and you could tell the acting and directing was extremely professional. At one point Matthew fell and crashed into the wall as he was scrambling to exit. When we interviewed him afterwards he informed us that it was actually not a real fall, what amazing acting!
 
-Matthew was not the only Leftist Men in the show, Eric and Evan took roles behind the scenes to mold the show into the masterpiece it is. Eric found his place in the theater's tech booth where he masterfully timed sound cues and transformed the atmosphere on stage. Evan along with the rest of his wardrobe department put his blood, sweat and tears into making beautiful costumes for Matthew and the rest of the cast. 
+Matthew was not the only member of LEFOLG in the show, Eric and Evan took roles behind the scenes to mold the show into the masterpiece it is. Eric found his place in the theater's tech booth where he masterfully timed sound cues and transformed the atmosphere on stage. Evan along with the rest of his wardrobe department put his blood, sweat and tears into making beautiful costumes for Matthew and the rest of the cast. 
 
 “This was the most difficult few months of my life” says Evan. “But it was all worth to see the laughter from the audience.” 
 

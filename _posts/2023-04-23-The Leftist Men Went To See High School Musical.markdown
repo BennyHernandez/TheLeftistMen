@@ -17,4 +17,4 @@ We then asked Matthew what some of his favorite moments were from the show. He t
 We haven’t had a chance to see the show yet, but if this is how LEFOLG feel about this show, it likely is a must-watch for all. We left after this interview and let the men get back to drinking their mochas and coming up with bigger and better plans for their future. High School Musical has 3 more performances coming up on April 27th, 28th, and 29th all at 7 pm so don't miss it, we know we won't!
 
 ![Author David Taylor](/assets/posts/david-taylor.jpg){:class="author-img"}
-David Taylor is a writer for all things Leftist Men. He has been a big part of building them up to who they are today with his outstanding op-ed pieces and other fantastic contributions.
+David Taylor is a writer for all things LEFOLG. He has been a big part of building them up to who they are today with his outstanding op-ed pieces and other fantastic contributions.

@@ -84,7 +84,7 @@ Evan couldn’t make it to the trial, unfortunately, but in my mind, he would ha
 
 I called Eric on the phone and asked him about this picture. “That was by far one of the most damning pieces of evidence they provided,” Eric said. “Sometimes it’s hard to believe I walked out of there a man who was not gay.”
 
-But in the end, he won the case. And in true Leftist Men fashion, a celebration occurred afterward. But the fun wasn’t over yet. The 4th of July was just around the corner, and all gathered at Emma’s house for fireworks.
+But in the end, he won the case. And in true LEFOLG fashion, a celebration occurred afterward. But the fun wasn’t over yet. The 4th of July was just around the corner, and all gathered at Emma’s house for fireworks.
 
 ![Evan standing in front of a firework display at Emma's house](/assets/posts/Fireworks.jpg){:class="article-img-medium"}
 
@@ -122,11 +122,11 @@ The below picture is not the final product though it’s pretty close and the di
 ![Eric's room before](/assets/posts/EricsRoom2.jpg){:class="article-img-medium"}
 ![Eric's room after](/assets/posts/EricsRoom3.jpg){:class="article-img-medium"}
 
-Back at the Baldwin house, another room was being redone. There had been a spare room at  the house for a few months at  this point, so Ike decided to  move across the hall into this new and bigger room. Ike’s  previous room was left for  storage, a guest room, as well as something else. Talks of having a museum of sorts where different pictures, jokes, and novelties of the whole group could be stored. The whole group being the L.I.C.E coalition. L.I.C.E stands for: Leftist Men Independent Ike Centrist Them Everyone Else
+Back at the Baldwin house, another room was being redone. There had been a spare room at  the house for a few months at  this point, so Ike decided to  move across the hall into this new and bigger room. Ike’s  previous room was left for  storage, a guest room, as well as something else. Talks of having a museum of sorts where different pictures, jokes, and novelties of the whole group could be stored. The whole group being the L.I.C.E coalition. L.I.C.E stands for: LEFOLG Independent Ike Centrist Them Everyone Else
 
 ![TLM Museum at the Baldwin house](/assets/posts/Museum.jpg){:class="article-img-medium"}
 
-*Shown above, is a very early rendition of the museum with a lot of items missing. Some standouts in the museum are the Woody dolls, Bev Bos letters, Emma’s paintings, Lefolg flag, as well as Ike’s maze that he created back in 2019. Since then, countless items have been added such as metal pieces that we’ve used to dig things out of the ground, A Leftist Men cardboard cutout, the Free Time script, and countless more items with many more to come.*
+*Shown above, is a very early rendition of the museum with a lot of items missing. Some standouts in the museum are the Woody dolls, Bev Bos letters, Emma’s paintings, Lefolg flag, as well as Ike’s maze that he created back in 2019. Since then, countless items have been added such as metal pieces that we’ve used to dig things out of the ground, A LEFOLG cardboard cutout, the Free Time script, and countless more items with many more to come.*
 
 Summer was coming to a close for the men of LEFOLG, or three of them at least. Benny suggested that everyone go camping together as a big end-of-summer event. The men of LEFOLG and everyone else gathered together with about a week left of summer and drove to Foresthill and enjoyed a two day camping trip. Unfortunately, Evan could not attend this trip due to prior commitments, but he was there in my heart. The trip went very well overall, everyone got along and each night ended around the campfire, talking, joking, and making smores.
 
@@ -155,13 +155,13 @@ Eric had planned on getting a haircut for a while, but never got around to it. H
 
 ---
 
-Since then a few things have gone on with LEFOLG. Ben planned on leaving Taco Bell yet again and was hired at Noah’s Bagels. He took the job but for the third time, he returned to Taco Bell. He now plans on moving to a different Taco Bell location and working mornings, rather than closing at night. The other Leftist Men have been working hard at school and all have been maintaining great grades. All are also involved in the school’s production of Lend Me A Tenor, a farcical comedy where Matthew has taken on the lead role of Max. Eric is currently a part of the sound team and Evan has been working tirelessly on the costumes for the show. The show opens pretty soon, so be on the lookout for a review from David pretty soon.
+Since then a few things have gone on with LEFOLG. Ben planned on leaving Taco Bell yet again and was hired at Noah’s Bagels. He took the job but for the third time, he returned to Taco Bell. He now plans on moving to a different Taco Bell location and working mornings, rather than closing at night. The other the men of LEFOLG have been working hard at school and all have been maintaining great grades. All are also involved in the school’s production of Lend Me A Tenor, a farcical comedy where Matthew has taken on the lead role of Max. Eric is currently a part of the sound team and Evan has been working tirelessly on the costumes for the show. The show opens pretty soon, so be on the lookout for a review from David pretty soon.
 
 ![Sierra College's production of Lend Me A Tenor](/assets/posts/LendMeATenor.png){:class="article-img-medium"}
 
 *Sierra College's production of Lend Me A Tenor*
 
-That about wraps up this newsletter! We're very sorry that it took so long to come out, seeing that it’s a summer recap at the end of October. David’s been pretty busy with a few personal matters, so I’ve come on board to at least help out with the newsletter side of things. Be on the lookout for Leftist Men content coming very soon. Thanks for reading!
+That about wraps up this newsletter! We're very sorry that it took so long to come out, seeing that it’s a summer recap at the end of October. David’s been pretty busy with a few personal matters, so I’ve come on board to at least help out with the newsletter side of things. Be on the lookout for LEFOLG content coming very soon. Thanks for reading!
 
 ---
 
