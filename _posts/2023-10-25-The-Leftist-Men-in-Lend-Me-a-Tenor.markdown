@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "The Leftist Men in Lend Me a Tenor"
+title: "The men of LEFOLG in Lend Me a Tenor"
 date: 2023-11-06 00:00:00 -0700
 author: "Lynn Lylan & David Taylor"
 categories: news
@@ -8,7 +8,7 @@ categories: news
 
 ![Lend Me A Tenor](/assets/posts/LendMeATenor.png){:class="article-img"}
 
-Recently David and I got the opportunity to see the opening night of Sierra College's rendition of *Lend Me a Tenor*, starring The Leftist Men's very own Matthew and directed by Scott Adams.
+Recently David and I got the opportunity to see the opening night of Sierra College's rendition of *Lend Me a Tenor*, starring LEFOLG's very own Matthew and directed by Scott Adams.
 
 The theater was absolutely packed with people coming to see a Leftist Man perform on stage in this clever farce. The entire crowd was cackling at Matthew’s whimsical humor and they were demanding an encore by the end of the show. I found myself crying with laughter throughout the show and then sobbing that it had to end so soon. The comedic timing in the show was perfect and you could tell the acting and directing was extremely professional. At one point Matthew fell and crashed into the wall as he was scrambling to exit. When we interviewed him afterwards he informed us that it was actually not a real fall, what amazing acting!
 
@@ -24,9 +24,9 @@ Matthew was not the only Leftist Men in the show, Eric and Evan took roles behin
 
 We were pleasantly surprised to see the fourth Leftist Man, Ben, in the audience. When asked for his opinion on the show he told us, “I thought it was really great. I was happy to see Matthew doing such a great job, and the rest of the actors were amazing too. I was laughing the whole time. I’m hoping to be able to join the program next semester to star in Guys and Dolls!”
 
-While we do not know the rest of the cast and crew as well as we know about The Leftist Men, they did phenomenal jobs as well. Paul Fearn returned to play Mr. Saunders, once again performing alongside Matthew. Him and Matthew were a dynamic duo as the judges in The Crucible, and Paul did an equally outstanding performance in this show! In an insider interview we were informed that when Matthew and Arie sang a duet, it was actually Paul and Scotts voices. It was a touching throwback to when Paul and Scott acted in this very same show together previously, and their voices were great!
+While we do not know the rest of the cast and crew as well as we know about the men of LEFOLG, they did phenomenal jobs as well. Paul Fearn returned to play Mr. Saunders, once again performing alongside Matthew. Him and Matthew were a dynamic duo as the judges in The Crucible, and Paul did an equally outstanding performance in this show! In an insider interview we were informed that when Matthew and Arie sang a duet, it was actually Paul and Scotts voices. It was a touching throwback to when Paul and Scott acted in this very same show together previously, and their voices were great!
 
-Overall the show was fantastic. You can tell the actors and crew put an incredible amount of effort and love into making this show. The costumes and set were beautiful and well built, and the performance was hilarious. Another great Leftist Man show for the books! Tune in next time for more news about The Leftist Men!
+Overall the show was fantastic. You can tell the actors and crew put an incredible amount of effort and love into making this show. The costumes and set were beautiful and well built, and the performance was hilarious. Another great Leftist Man show for the books! Tune in next time for more news about LEFOLG!
 
 **Bonus Interview:**
 Jennifer recognized us in the audience and wanted to share her thoughts. 

@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Leftist Men
+title: LEFOLG
 email: bfaelz@gmail.com
-description: "The Leftist Men are an organization based in Roseville, CA that support local groups and have an ideology called Lefolg: the wealth of the rich, but the ideals of the poor man."
+description: "LEFOLG are an organization based in Roseville, CA that support local groups and have an ideology called Lefolg: the wealth of the rich, but the ideals of the poor man."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theleftistmen.org" # the base hostname & protocol for your site, e.g. http://example.com
 

@@ -24,7 +24,7 @@ July 19th- First visit to Galt
 
 August 16th- Evan’s departure for Long Beach
 
-November 1st- The Leftist Men vote
+November 1st- LEFOLG vote
 
 November 18/19th- Evan’s return/ Leftist Men one year anniversary 
 
@@ -32,7 +32,7 @@ November 18/19th- Evan’s return/ Leftist Men one year anniversary
 
 Late February- Production of Leftist Men signs
 
-March 14th- Benny reminded The Leftist Men about Free Time
+March 14th- Benny reminded LEFOLG about Free Time
 
 April 7th- Free Time poster is created and script planning begins
 
@@ -40,7 +40,7 @@ April 16th- Emma joins the cast of Free Time
 
 April 19th- Leftist Men and Centrist Them Winco standoff
 
-April 27th- May 1st- The Leftist Men visit Evan and Lea in L.A
+April 27th- May 1st- The men of LEFOLG visit Evan and Lea in L.A
 
 May 2nd-Free Time writing and production begins
 
@@ -70,7 +70,7 @@ This picture was sent in to us by Emma, where Lea refers to Eric as a Leftist Ma
 
 Lea is currently in her 2nd year at UCLA majoring in PoliSci. If you want to support Lea and her sisters, you can check out the youtube channel Lea and Sophia for daily content from Lea and her sister, Sophia.
 
-We hope you all enjoyed this update, directly from us. We’re sorry we’ve been so quiet these past few months, we’ve all had a lot to do recently. Three of us are involved in a production of Lend Me A Tenor at our college and so it’s taking up a lot of our Free Time. But once it’s done, we’ll have a lot more time to focus on The Leftist Men as a whole. We even have some of the cast of Lend Me A Tenor helping us out and giving us ideas for The Leftist Men, so we have exciting things coming up. Also, there may or may not be a new play being written by The Leftist Men pretty soon after Lend Me A Tenor finishes, so be on the lookout.
+We hope you all enjoyed this update, directly from us. We’re sorry we’ve been so quiet these past few months, we’ve all had a lot to do recently. Three of us are involved in a production of Lend Me A Tenor at our college and so it’s taking up a lot of our Free Time. But once it’s done, we’ll have a lot more time to focus on LEFOLG as a whole. We even have some of the cast of Lend Me A Tenor helping us out and giving us ideas for LEFOLG, so we have exciting things coming up. Also, there may or may not be a new play being written by LEFOLG pretty soon after Lend Me A Tenor finishes, so be on the lookout.
 
 As always,
 

@@ -8,7 +8,7 @@ categories: news
 
 ![Newest Member of Free Time](/assets/posts/Free-Time.jpg){:class="article-img"}
 
-_Free Time_ is a new musical proudly presented by The Leftist Men about
+_Free Time_ is a new musical proudly presented by LEFOLG about
 a group of high school boys suffering from a lack of free time. This
 emotional and exciting musical has critics raving over about its catchy
 tunes, powerful lyrics, and thought-provoking message.
