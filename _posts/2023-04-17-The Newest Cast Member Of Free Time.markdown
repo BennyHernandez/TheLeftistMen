@@ -10,7 +10,7 @@ categories: news
 
 LEFOLG is proud to announce that they are adding somebody to the cast of Free Time. We have found out that this person is taking on the role of the drama teacher. “We always knew we needed a strong female lead in this show. This show is about finding our free time, but it’s also about so much more than just that. We really needed to find somebody who embodied the spirit of Free Time as much as we did.” Eric said. “That is why we have decided to cast her [Emma] in the role of the drama teacher.”
 
-Emma has had a long history with LEFOLG and has worked with them in many different productions and projects throughout the past few years. From acting on stage with them to being backstage helping them behind the scenes, she’s done it all. Emma has previously been a stagehand for Little Shop Of Horrors, co-directed a one-act play with another Leftist Man, Evan, and most recently done tech work for The Crucible.
+Emma has had a long history with LEFOLG and has worked with them in many different productions and projects throughout the past few years. From acting on stage with them to being backstage helping them behind the scenes, she’s done it all. Emma has previously been a stagehand for Little Shop Of Horrors, co-directed a one-act play with another man of LEFOLG, Evan, and most recently done tech work for The Crucible.
 
 When reaching out to Evan about his past work with Emma he said, “I had such a great time working with her on all of the projects we’ve done,” Evan said. “When I saw her name on the list of people who were auditioning for this role I immediately thought, it’s got to be her, she’d be perfect for this role.”
 
