@@ -394,6 +394,8 @@ h1.page-title {
 }
 
 .gallery img {
+  aspect-ratio: 1;
+  object-fit: cover;
   width: 30%;
   margin: 1rem;
 }
@@ -826,8 +828,13 @@ h2 {
     max-width: 90%;
   }
 
+  .gallery {
+    flex-wrap: wrap;
+  }
+
   .gallery img {
     margin: 0.25em;
+    flex-basis: 45%;
   }
 
   .map {
