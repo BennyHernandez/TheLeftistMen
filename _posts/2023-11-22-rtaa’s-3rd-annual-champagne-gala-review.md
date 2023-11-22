@@ -12,7 +12,7 @@ Pictured above: The Leftist Men on the red carpet of the Champagne Gala.
 
 This past Saturday, RTAA hosted its 3rd annual Champagne Gala. The event, originally meant to raise funds for theatre during the pandemic, is a yearly event to raise money for the theater and offer a night of luxury theatre. Dressing up was very highly encouraged, so of course The Leftist Men had to take up the opportunity to dress up and support their local theater, as well as a few people they knew in the cast. Joining The Leftist Men at the gala on Saturday were Gianna and Kyra, friends of The Leftist Men as well as cast members of LMAT who played The Bellhop and Maggie, respectively. 
 
-![](/assets/uploads/af1qippcgpunn11va5xhaliuiv-xbu7nwg64xlgv_lpc-w1440-h1920.jpeg)
+![](/assets/uploads/leftist-women.jpeg)
 
 Pictured from left to right: 
 
