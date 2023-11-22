@@ -45,7 +45,7 @@ main:after {
 
 .header {
   position: fixed;
-  height: 100px;
+  height: 75px;
   width: 100%;
   left: 0;
   top: 0;
@@ -70,7 +70,7 @@ main:after {
   text-transform: uppercase;
 }
 
-.header .row ul {
+.header .row ul.nav-list {
   display: flex;
   margin: 0;
   align-items: center;
@@ -85,10 +85,26 @@ main:after {
   position: relative;
 }
 
-.header .row li:first-of-type {
+.header .row ul.nav-list li.title {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.5em;
   padding-left: 115px;
+}
+
+.header .row ul.nav-list ul.dropdown-menu {
+  list-style: none;
+  position: absolute;
+  left: -0.5em;
+  background: #121212;
+  padding: 0;
+  padding-bottom: 1em;
+}
+
+.header .row ul.nav-list ul.dropdown-menu li {
+  padding: 1em;
+  padding-bottom: 0;
+  padding-left: 0.5em;
+  white-space: nowrap;
 }
 
 .eric {
@@ -310,7 +326,7 @@ canvas {
   background: url(./assets/Seal2.png) no-repeat;
   background-position: center;
   background-size: contain;
-  top: -30px;
+  top: -37.5px;
   left: -15px;
   position: absolute;
   height: 100px;
@@ -328,7 +344,7 @@ canvas {
   max-width: 100%;
   overflow: hidden;
   object-fit: cover;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 .free-time-banner {
@@ -369,7 +385,6 @@ h1.page-title {
   align-content: center;
   text-align: center;
   flex-direction: column;
-  padding-top: 5rem;
 }
 
 .home-title h1.text-header {
@@ -789,10 +804,6 @@ h2 {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .banner img {
-    margin-top: 100px;
-  }
-
   .header:not(.is-active) .row li:not(:first-of-type) {
     display: none;
   }
