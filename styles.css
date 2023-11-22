@@ -881,8 +881,8 @@ h2 {
     margin: 1em;
   }
 
-  .news-content .article-img {
-    width: 100% !important;
+  .news-content img {
+    width: 100%;
   }
 
   .news-content .article-img-medium {
