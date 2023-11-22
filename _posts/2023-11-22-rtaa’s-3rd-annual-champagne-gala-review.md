@@ -6,7 +6,7 @@ date: 2023-11-22T02:28:38.682Z
 author: David Taylor
 hidden: true
 ---
-![](/assets/uploads/5d00c86a-3b42-449a-b7c8-68ed2e7b7a9f_4_5005_c.jpeg)
+![](/assets/uploads/leftist-men.jpeg)
 
 Pictured above: The Leftist Men on the red carpet of the Champagne Gala.	
 
