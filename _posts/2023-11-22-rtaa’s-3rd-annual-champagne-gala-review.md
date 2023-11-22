@@ -4,7 +4,7 @@ categories: news
 title: RTAA’s 3rd Annual Champagne Gala Review
 date: 2023-11-22T02:28:38.682Z
 author: David Taylor
-hidden: true
+hidden: false
 ---
 ![](/assets/uploads/leftist-men.jpeg)
 
