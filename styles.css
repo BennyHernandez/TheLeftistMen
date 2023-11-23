@@ -98,13 +98,19 @@ main:after {
   background: #121212;
   padding: 0;
   padding-bottom: 1em;
+  display: none;
 }
 
 .header .row ul.nav-list ul.dropdown-menu li {
-  padding: 1em;
-  padding-bottom: 0;
-  padding-left: 0.5em;
+  margin: 1em;
+  margin-bottom: 0;
+  margin-left: 0.5em;
   white-space: nowrap;
+  width: min-content;
+}
+
+.header .row li:hover ul.dropdown-menu {
+  display: block;
 }
 
 .eric {
@@ -241,7 +247,7 @@ canvas {
   color: inherit;
 }
 
-.header .row li:not(:first-of-type) > a::after {
+.header .row li:not(.title) > a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -252,6 +258,7 @@ canvas {
   background-color: #fff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
+  z-index: 99;
 }
 
 .header .row li:not(:first-of-type) a:hover::after {
@@ -361,21 +368,21 @@ h1.page-title {
   text-align: center;
 }
 
-.contact {
+.container {
   display: flex;
   font-size: 1.25em;
 }
 
-.contact > * {
+.container > * {
   padding: 1.5em;
   margin: 0 auto;
 }
 
-.contact img {
+.container img {
   max-height: 60vh;
 }
 
-.contact .title {
+.container .title {
   font-weight: 700;
 }
 
@@ -791,6 +798,26 @@ h2 {
   font-size: 1.25em;
 }
 
+.crew-container {
+  margin: 5em;
+  justify-content: center;
+}
+
+.crew-member {
+  display: flex;
+  width: 100%;
+  margin: 2em;
+  position: relative;
+}
+
+.crew-member img {
+  width: 15%;
+}
+
+.crew-member p {
+  margin-left: 1em;
+}
+
 @media all AND (max-width: 700px) {
   .testimonials {
     flex-direction: column;
@@ -960,11 +987,11 @@ h2 {
     font-size: 3em !important;
   }
 
-  .contact {
+  .container {
     flex-direction: column;
   }
 
-  .contact img {
+  .container img {
     width: 80%;
   }
 
