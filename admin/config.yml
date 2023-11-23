@@ -22,7 +22,7 @@ collections:
     label: 'Staff'
     folder: '_staff/'
     create: true
-    slug: '{{slug}}'
+    slug: '{{name}}'
     editor:
       preview: false
     fields:
