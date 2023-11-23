@@ -27,10 +27,10 @@ collections:
       preview: false
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Position', name: 'name', widget: 'string' }
+      - { label: 'Position', name: 'position', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-        - name: 'announcements'
+  - name: 'announcements'
     label: 'Announcements'
     folder: '_announcements/'
     create: true
