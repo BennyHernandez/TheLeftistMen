@@ -21,7 +21,7 @@ layout: tlm-default
 <h1 class="page-title">Gallery</h1>
 
 <div class="container gallery-container">
-  {% for image in gallery %}
+  {% for image in site.gallery %}
   <div class="gallery-image">
     <img src="{{image.image}}" /><i>{{image.date}}<br />{{image.body}}</i>
   </div>
