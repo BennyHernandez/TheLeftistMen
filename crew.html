@@ -1,0 +1,22 @@
+---
+title: Testimonials | LEFOLG
+description: "LEFOLG is an organization based in Roseville, CA that support local groups and have an ideology called Lefolg: the wealth of the rich, but the ideals of the poor man."
+layout: tlm-default
+---
+
+<h1 class="page-title">Our Crew</h1>
+<div class="crew-container">
+  {% for member in site.staff %}
+  <div class="crew-member">
+    <img src="{{member.image}}" alt="{{member.name}}" />
+    <p>{{member.content}}</p>
+  </div>
+  {% endfor %}
+  <!-- <div class="crew-member">
+    <img src="/assets/benny.jpg" />
+    <p>
+      Benny is a Benny Benny Benny Benny Benny Benny Benny Benny Benny Benny
+      Benny Benny Benny Benny Benny Benny Benny Benny Benny Benny Benny Benny
+    </p>
+  </div> -->
+</div>

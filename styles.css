@@ -45,7 +45,7 @@ main:after {
 
 .header {
   position: fixed;
-  height: 100px;
+  height: 75px;
   width: 100%;
   left: 0;
   top: 0;
@@ -70,7 +70,7 @@ main:after {
   text-transform: uppercase;
 }
 
-.header .row ul {
+.header .row ul.nav-list {
   display: flex;
   margin: 0;
   align-items: center;
@@ -85,10 +85,32 @@ main:after {
   position: relative;
 }
 
-.header .row li:first-of-type {
+.header .row ul.nav-list li.title {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.5em;
   padding-left: 115px;
+}
+
+.header .row ul.nav-list ul.dropdown-menu {
+  list-style: none;
+  position: absolute;
+  left: -0.5em;
+  background: #121212;
+  padding: 0;
+  padding-bottom: 1em;
+  display: none;
+}
+
+.header .row ul.nav-list ul.dropdown-menu li {
+  margin: 1em;
+  margin-bottom: 0;
+  margin-left: 0.5em;
+  white-space: nowrap;
+  width: min-content;
+}
+
+.header .row li:hover ul.dropdown-menu {
+  display: block;
 }
 
 .eric {
@@ -225,7 +247,7 @@ canvas {
   color: inherit;
 }
 
-.header .row li:not(:first-of-type) > a::after {
+.header .row li:not(.title) > a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -236,6 +258,7 @@ canvas {
   background-color: #fff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
+  z-index: 99;
 }
 
 .header .row li:not(:first-of-type) a:hover::after {
@@ -310,7 +333,7 @@ canvas {
   background: url(./assets/Seal2.png) no-repeat;
   background-position: center;
   background-size: contain;
-  top: -30px;
+  top: -37.5px;
   left: -15px;
   position: absolute;
   height: 100px;
@@ -328,7 +351,7 @@ canvas {
   max-width: 100%;
   overflow: hidden;
   object-fit: cover;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 .free-time-banner {
@@ -345,21 +368,21 @@ h1.page-title {
   text-align: center;
 }
 
-.contact {
+.container {
   display: flex;
   font-size: 1.25em;
 }
 
-.contact > * {
+.container > * {
   padding: 1.5em;
   margin: 0 auto;
 }
 
-.contact img {
+.container img {
   max-height: 60vh;
 }
 
-.contact .title {
+.container .title {
   font-weight: 700;
 }
 
@@ -369,7 +392,6 @@ h1.page-title {
   align-content: center;
   text-align: center;
   flex-direction: column;
-  padding-top: 5rem;
 }
 
 .home-title h1.text-header {
@@ -776,6 +798,26 @@ h2 {
   font-size: 1.25em;
 }
 
+.crew-container {
+  margin: 5em;
+  justify-content: center;
+}
+
+.crew-member {
+  display: flex;
+  width: 100%;
+  margin: 2em;
+  position: relative;
+}
+
+.crew-member img {
+  width: 15%;
+}
+
+.crew-member p {
+  margin-left: 1em;
+}
+
 @media all AND (max-width: 700px) {
   .testimonials {
     flex-direction: column;
@@ -789,10 +831,6 @@ h2 {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .banner img {
-    margin-top: 100px;
-  }
-
   .header:not(.is-active) .row li:not(:first-of-type) {
     display: none;
   }
@@ -949,11 +987,11 @@ h2 {
     font-size: 3em !important;
   }
 
-  .contact {
+  .container {
     flex-direction: column;
   }
 
-  .contact img {
+  .container img {
     width: 80%;
   }
 

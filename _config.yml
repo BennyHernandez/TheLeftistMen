@@ -26,6 +26,7 @@ url: "https://theleftistmen.org" # the base hostname & protocol for your site, e
 
 collections:
   - announcements
+  - staff
 
 # Build settings
 plugins:

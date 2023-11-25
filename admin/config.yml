@@ -19,6 +19,18 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string' }
       - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'staff'
+    label: 'Staff'
+    folder: '_staff/'
+    create: true
+    slug: '{{name}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Position', name: 'position', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'announcements'
     label: 'Announcements'
     folder: '_announcements/'
