@@ -29,6 +29,7 @@ collections:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Position', name: 'position', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Priority', name: 'priority', widget: 'number' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'announcements'
     label: 'Announcements'
