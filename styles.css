@@ -211,8 +211,8 @@ main:after {
   z-index: 999;
   position: fixed;
   bottom: 0;
-  /* right: -500px; */
   height: 15vh;
+  left: 100%;
 }
 
 canvas {

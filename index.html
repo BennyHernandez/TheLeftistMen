@@ -142,21 +142,51 @@ layout: tlm-default
       let round = 0;
       let dist = 110;
       $(".benCar").show();
-      interval = setInterval(function () {
-        $(".benCar").css("transform", `translate(${dist - 10}vw, 0px)`);
-        dist = dist - 0.2;
-        if (dist < -10) {
-          round++;
-          dist = 110;
+      // interval = setInterval(function () {
+      //   $(".benCar").css("transform", `translate(${dist - 10}vw, 0px)`);
+      //   dist = dist - 1;
+      //   if (dist < -10) {
+      //     round++;
+      //     dist = 110;
+      //   }
+      //   if (round == 3) {
+      //     clearInterval(interval);
+      //     $(".benCar").hide();
+      //     document.getElementById("benSfx").pause();
+      //     document.getElementById("benSfx").currentTime = 0;
+      //   }
+      //   console.log(dist);
+      // }, 50);
+      $(".benCar").animate(
+        {
+          left: "-20%",
+        },
+        10000,
+        function () {
+          $(".benCar").css("left", "100%");
+          $(".benCar").animate(
+            {
+              left: "-20%",
+            },
+            2000,
+            function () {
+              $(".benCar").css("left", "100%");
+
+              $(".benCar").animate(
+                {
+                  left: "-20%",
+                },
+                5000,
+                function () {
+                  $(".benCar").css("left", "100%");
+                  document.getElementById("benSfx").pause();
+                  document.getElementById("benSfx").currentTime = 0;
+                }
+              );
+            }
+          );
         }
-        if (round == 3) {
-          clearInterval(interval);
-          $(".benCar").hide();
-          document.getElementById("benSfx").pause();
-          document.getElementById("benSfx").currentTime = 0;
-        }
-        console.log(dist);
-      }, 10);
+      );
     }
     if (Date.now() - timeBen > 3000) countBen = 1;
     timeBen = Date.now();
