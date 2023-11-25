@@ -4,7 +4,7 @@ description: "LEFOLG is an organization based in Roseville, CA that support loca
 layout: tlm-default
 ---
 
-<h1 class="page-title">Our Crew</h1>
+<!-- <h1 class="page-title">Our Crew</h1>
 <div class="crew-container">
   {% assign crew = site.staff | sort: 'priority' %} {% for member in crew %}
   <div class="crew-member">
@@ -14,6 +14,16 @@ layout: tlm-default
       <h3>{{member.position}}</h3>
       {{member.content}}
     </div>
+  </div>
+  {% endfor %}
+</div> -->
+
+<h1 class="page-title">Gallery</h1>
+
+<div class="container gallery-container">
+  {% for image in gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i>{{image.date}}<br />{{image.body}}</i>
   </div>
   {% endfor %}
 </div>

@@ -371,6 +371,7 @@ h1.page-title {
 .container {
   display: flex;
   font-size: 1.25em;
+  flex-wrap: wrap;
 }
 
 .container > * {
@@ -379,11 +380,24 @@ h1.page-title {
 }
 
 .container img {
-  max-height: 60vh;
+  max-height: 40vh;
 }
 
 .container .title {
   font-weight: 700;
+}
+
+.gallery-container {
+  margin: 5em;
+}
+
+.gallery-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-image img {
+  max-height: 50vh;
 }
 
 .home-title {

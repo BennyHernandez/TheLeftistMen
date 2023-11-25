@@ -10,7 +10,16 @@ layout: tlm-default
 <section class="testimonials-container">
   <h2>What Our Fans Are Saying</h2>
   <div class="testimonials">
+    {% for testimonial in testimonials %}
     <div class="testimonial">
+      <h3>"{{testimonial.title}}"</h3>
+      <p>
+        {{testimonial.body}}
+        <span class="testimonal-author">{{testimonial.author}}</span>
+      </p>
+    </div>
+    {% endfor %}
+    <!-- <div class="testimonial">
       <h3>"LEFOLG changed my life!"</h3>
       <p>
         Eric, Matthew, Evan, and Ben have made my life better in every way! I
@@ -67,7 +76,7 @@ layout: tlm-default
         for ambulance if it weren’t for Eric.
         <span class="testimonal-author">Megan D.</span>
       </p>
-    </div>
+    </div> -->
   </div>
   <h2 class="title">Have something you would like to say? Send us an email!</h2>
   <span
