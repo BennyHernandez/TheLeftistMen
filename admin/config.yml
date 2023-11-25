@@ -58,7 +58,7 @@ collections:
     folder: '_gallery/'
     create: true
     slug: "{{date | date: '%Y/%m%d'}}-{{body}}"
-    identifier_field: "{{date | date: '%Y/%m%d'}}-{{body}}"
+    identifier_field: body
     editor:
       preview: false
     fields:
