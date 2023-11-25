@@ -9,7 +9,7 @@ layout: tlm-default
   {% assign crew = site.staff | sort: 'priority' %} {% for member in crew %}
   <div class="crew-member">
     <img src="{{member.image}}" alt="{{member.name}}" />
-    <p>{{member.content}}</p>
+    {{member.content}}
   </div>
   {% endfor %}
   <!-- <div class="crew-member">
