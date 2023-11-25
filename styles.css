@@ -811,7 +811,8 @@ h2 {
 }
 
 .crew-member img {
-  width: 15%;
+  min-width: 10%;
+  min-width: 10%;
   aspect-ratio: 1;
 }
 
