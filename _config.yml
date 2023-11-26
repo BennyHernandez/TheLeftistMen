@@ -30,11 +30,15 @@ collections:
   - testimonials
   - gallery
 
+paginate: 5
+paginate_path: "/news/:num/"
+
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-last-modified-at
+  - jekyll-paginate
 
   
 # Exclude from processing.

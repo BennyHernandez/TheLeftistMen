@@ -499,6 +499,12 @@ h1.page-title {
   display: flex;
 }
 
+.articles .pagination {
+  margin-top: 2em;
+  text-align: center;
+  font-weight: 700;
+}
+
 .announcements {
   padding: 1em;
   margin-top: 2.5em;

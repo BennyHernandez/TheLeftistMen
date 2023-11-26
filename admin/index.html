@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 <html>
   <head>
     <meta charset="utf-8" />
@@ -27,13 +31,11 @@
             h(
               "h3",
               {},
-              entry
-                .getIn(["data", "date"])
-                .toLocaleDateString("en-us", {
-                  year: "numeric",
-                  month: "short",
-                  day: "numeric",
-                }) +
+              entry.getIn(["data", "date"]).toLocaleDateString("en-us", {
+                year: "numeric",
+                month: "short",
+                day: "numeric",
+              }) +
                 " - " +
                 entry.getIn(["data", "author"])
             ),
