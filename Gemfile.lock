@@ -195,6 +195,7 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll-webp (1.0.0)
     jemoji (0.12.0)
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
@@ -272,6 +273,7 @@ DEPENDENCIES
   jekyll-last-modified-at
   jekyll-paginate
   jekyll-sitemap
+  jekyll-webp
   minima (~> 2.5)
   tzinfo (>= 1, < 3)
   tzinfo-data
