@@ -38,5 +38,3 @@ gem "webrick", "~> 1.8"
 gem 'jekyll-sitemap'
 
 gem 'jekyll-paginate'
-
-gem 'jekyll-webp'
