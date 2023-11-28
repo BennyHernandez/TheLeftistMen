@@ -824,14 +824,12 @@ h2 {
 
 .crew-member {
   display: flex;
-  width: 100%;
   margin: 2em;
   position: relative;
 }
 
 .crew-member img {
-  min-width: 10%;
-  max-width: 10%;
+  height: 15em;
   aspect-ratio: 1;
   object-fit: cover;
   margin-right: 1em;
@@ -1040,5 +1038,31 @@ h2 {
   .announcements .list hr {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .crew-container {
+    margin: 1em;
+  }
+
+  .crew-member img {
+    width: 35%;
+    height: 35%;
+  }
+
+  .crew-member div > h3 {
+    margin: 0;
+    margin-top: 0.25em;
+    margin-bottom: 1em;
+    white-space: nowrap;
+  }
+
+  .crew-member div hr,
+  .crew-member div p {
+    margin-left: -7em;
+    margin-top: 0;
+  }
+
+  .crew-member div {
+    width: 50%;
   }
 }
