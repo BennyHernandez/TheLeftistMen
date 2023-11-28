@@ -20,8 +20,56 @@ layout: tlm-default
 
 <h1 class="page-title">Gallery</h1>
 
-<div class="container gallery-container">
+<div class="gallery-container">
   {% for image in site.gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i
+      >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i
+    >
+  </div>
+  {% endfor %} {% for image in site.gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i
+      >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i
+    >
+  </div>
+  {% endfor %} {% for image in site.gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i
+      >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i
+    >
+  </div>
+  {% endfor %} {% for image in site.gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i
+      >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i
+    >
+  </div>
+  {% endfor %}{% for image in site.gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i
+      >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i
+    >
+  </div>
+  {% endfor %}{% for image in site.gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i
+      >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i
+    >
+  </div>
+  {% endfor %}{% for image in site.gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i
+      >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i
+    >
+  </div>
+  {% endfor %}{% for image in site.gallery %}
+  <div class="gallery-image">
+    <img src="{{image.image}}" /><i
+      >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i
+    >
+  </div>
+  {% endfor %}{% for image in site.gallery %}
   <div class="gallery-image">
     <img src="{{image.image}}" /><i
       >{{image.date | date_to_string: "ordinal", "US"}}{{image.content}}</i

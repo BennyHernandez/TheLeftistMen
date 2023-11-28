@@ -362,7 +362,8 @@ canvas {
 }
 
 h1.page-title {
-  margin-top: 200px;
+  margin: 1rem;
+  margin-top: 10rem;
   font-size: 7.5em;
   text-align: center;
 }
@@ -387,16 +388,22 @@ h1.page-title {
 }
 
 .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
   margin: 5em;
+  justify-content: center;
 }
 
 .gallery-image {
   display: flex;
   flex-direction: column;
+  margin: 1em;
 }
 
 .gallery-image img {
   max-height: 50vh;
+  object-fit: contain;
+  margin-bottom: 1em;
 }
 
 .home-title {
@@ -1064,5 +1071,14 @@ h2 {
 
   .crew-member div {
     width: 50%;
+  }
+
+  .gallery-image {
+    margin: 0.5em;
+    max-width: 9em;
+  }
+
+  .gallery-container {
+    margin: 1em;
   }
 }
