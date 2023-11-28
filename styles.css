@@ -91,7 +91,7 @@ main:after {
   padding-left: 115px;
 }
 
-.header .row ul.nav-list ul.dropdown-menu {
+.header .row ul.nav-list li.dropdown-menu ul {
   list-style: none;
   position: absolute;
   left: -0.5em;
@@ -101,7 +101,7 @@ main:after {
   display: none;
 }
 
-.header .row ul.nav-list ul.dropdown-menu li {
+.header .row ul.nav-list li.dropdown-menu ul li {
   margin: 1em;
   margin-bottom: 0;
   margin-left: 0.5em;
@@ -109,8 +109,8 @@ main:after {
   width: min-content;
 }
 
-.header .row li:hover ul.dropdown-menu {
-  display: block;
+.header .row li.dropdown-menu:hover ul {
+  display: block !important;
 }
 
 .eric {
@@ -292,7 +292,6 @@ canvas {
 .hamburger {
   display: none;
   position: absolute;
-  margin-top: 0.75em;
 }
 
 .hamburger .line {
@@ -862,19 +861,19 @@ h2 {
   .hamburger {
     position: fixed;
     display: block;
-    top: 25px;
-    right: 25px;
+    top: 1.5rem;
+    right: 1.5rem;
   }
 
   .header .row a {
     font-size: 1em;
   }
 
-  .header .row li:first-of-type {
+  .header .row li.title {
     left: -0.5em;
   }
 
-  .header .row li:first-of-type a:last-of-type {
+  .header .row li.title a:last-of-type {
     left: -2rem;
     position: relative;
   }
@@ -889,9 +888,7 @@ h2 {
     height: 100%;
   }
 
-  .header.is-active ul {
-    margin-top: 2rem;
-    margin-left: 1rem;
+  .header.is-active ul.nav-list {
     flex-direction: column;
     align-items: start;
     justify-content: initial;
@@ -900,8 +897,26 @@ h2 {
   .header.is-active li,
   .header.is-active a {
     font-size: 2rem;
+    margin-bottom: 1rem;
+  }
 
-    margin-bottom: 2.5rem;
+  .header.is-active li:not(.title) {
+    margin-left: 1rem;
+  }
+
+  .header.is-active li.dropdown-menu ul {
+    display: block !important;
+    position: relative !important;
+    padding: 0 !important;
+  }
+
+  .header.is-active li.dropdown-menu ul li {
+    margin: 0.25em !important;
+    margin-left: 1em !important;
+  }
+
+  .header.is-active li.dropdown-menu ul li a {
+    font-size: 1.5rem;
   }
 
   .header button {
@@ -910,19 +925,18 @@ h2 {
   }
 
   .header.is-active .nav-logo {
-    top: -0.5em;
-    height: 2em;
-    width: 2em;
+    /* top: -0.5em; */
+    /* height: 2em;
+    width: 2em; */
   }
 
-  .header.header.is-active li:first-of-type {
-    margin-bottom: 5rem;
+  .header.header.is-active li.title {
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
   }
 
-  .header.header.is-active li:first-of-type a:last-of-type {
-    position: relative;
+  .header.header.is-active li.title a:last-of-type {
     font-size: 1em;
-    left: -2em;
   }
 
   .home-title {
