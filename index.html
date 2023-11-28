@@ -140,55 +140,39 @@ layout: tlm-default
       let round = 0;
       let dist = 110;
       $(".benCar").show();
-      // interval = setInterval(function () {
-      //   $(".benCar").css("transform", `translate(${dist - 10}vw, 0px)`);
-      //   dist = dist - 1;
-      //   if (dist < -10) {
-      //     round++;
-      //     dist = 110;
-      //   }
-      //   if (round == 3) {
-      //     clearInterval(interval);
-      //     $(".benCar").hide();
-      //     document.getElementById("benSfx").pause();
-      //     document.getElementById("benSfx").currentTime = 0;
-      //   }
-      //   console.log(dist);
-      // }, 50);
-      $(".benCar").animate(
-        {
-          left: "-20%",
-        },
-        10000,
-        function () {
-          $(".benCar").css("left", "100%");
-          $(".benCar").animate(
-            {
-              left: "-20%",
-            },
-            2000,
-            function () {
-              $(".benCar").css("left", "100%");
-
-              $(".benCar").animate(
-                {
-                  left: "-20%",
-                },
-                5000,
-                function () {
-                  $(".benCar").css("left", "100%");
-                  document.getElementById("benSfx").pause();
-                  document.getElementById("benSfx").currentTime = 0;
-                }
-              );
-            }
-          );
-        }
-      );
+      benDrive(10000).then(function () {
+        benDrive(5000).then(function () {
+          benDrive(2000).then(function () {
+            document.getElementById("benSfx").pause();
+            document.getElementById("benSfx").currentTime = 0;
+          });
+        });
+      });
     }
     if (Date.now() - timeBen > 3000) countBen = 1;
     timeBen = Date.now();
   });
+
+  function benDrive(duration) {
+    let benWidth = $(".benCar").width();
+    let windowWidth = $(window).width();
+    console.log();
+    return new Promise(function (res) {
+      $({ y: 0 }).animate(
+        { y: -windowWidth - benWidth },
+        {
+          duration: duration,
+          step: function (val) {
+            $(".benCar").css("transform", `translate(${val}px,0)`);
+          },
+
+          done: function () {
+            res();
+          },
+        }
+      );
+    });
+  }
 </script>
 
 <!-- Matthew Bit -->
@@ -199,20 +183,6 @@ layout: tlm-default
   $("#matthew").click(function () {
     count++;
     if (count >= 3 && Date.now() - time < 3000) {
-      let size = document.querySelector("#matthew").offsetHeight;
-      let x =
-        document.querySelector("#matthew").getBoundingClientRect().left +
-        size * 0.2;
-      let y =
-        document.querySelector("#matthew").getBoundingClientRect().top +
-        document.documentElement.scrollTop +
-        size * 0.16;
-      let pos = document.querySelector("#matthew").getBoundingClientRect();
-
-      $(".gallery").after(
-        `<div class='speech-bubble rounded' style='top: ${y}px; left: ${x}px;'>It's wayyyyy too cold in here!</div>`
-      );
-
       document.getElementById("windSfx").play();
 
       let shiver = setInterval(function () {
@@ -347,6 +317,7 @@ layout: tlm-default
         clearInterval(shiver);
         $(".speech-bubble").remove();
         $("#particles-js").hide();
+        $("#matthew").attr("style", `transform: translate(0px,0px);`);
         count = 0;
       }, 10000);
     }
