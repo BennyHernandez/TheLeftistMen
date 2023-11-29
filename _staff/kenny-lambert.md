@@ -1,5 +1,5 @@
 ---
-name: Kenny Lambert
+name: Kenny Lambert (He/Him)
 position: Stuntman
 image: /assets/uploads/kenny.jpg
 priority: 4
