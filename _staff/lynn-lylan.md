@@ -1,5 +1,5 @@
 ---
-name: Lynn Lylan
+name: Lynn Lylan (She/Her)
 position: Intern Reporter
 image: /assets/uploads/lynn.jpg
 priority: 3
