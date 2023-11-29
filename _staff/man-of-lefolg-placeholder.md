@@ -1,5 +1,5 @@
 ---
-name: Man of LEFOLG Placeholder
+name: Man of LEFOLG Placeholder (He/Him)
 position: Man of LEFOLG
 image: https://placekitten.com/500/500
 priority: 1
