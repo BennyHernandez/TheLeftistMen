@@ -1,5 +1,5 @@
 ---
-name: Liberty Flores
+name: Liberty Flores (They/Them)
 position: Receptionist
 image: /assets/uploads/liberty.jpg
 priority: 4
