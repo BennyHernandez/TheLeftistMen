@@ -381,10 +381,15 @@ h1.page-title {
 
 .container img {
   max-height: 40vh;
+  object-fit: contain;
 }
 
 .container .title {
   font-weight: 700;
+}
+
+.container .info {
+  flex: 1;
 }
 
 .gallery-container {
@@ -1059,7 +1064,7 @@ h2 {
   .crew-member div > h3 {
     margin: 0;
     margin-top: 0.25em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     white-space: nowrap;
   }
 
