@@ -1,5 +1,5 @@
 ---
-name: David Taylor
+name: David Taylor (He/Him)
 position: Chief Editor
 image: /assets/uploads/david-taylor.jpg
 priority: 3
