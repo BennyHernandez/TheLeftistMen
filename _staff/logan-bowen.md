@@ -1,5 +1,5 @@
 ---
-name: Logan Bowen
+name: Logan Bowen (He/Him)
 position: Assistant LEFOLG
 image: /assets/uploads/logan.png
 priority: 2
